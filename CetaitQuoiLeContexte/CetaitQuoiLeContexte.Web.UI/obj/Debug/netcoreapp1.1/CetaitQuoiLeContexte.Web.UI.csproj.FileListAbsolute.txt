@@ -1,0 +1,8 @@
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Web.UI.deps.json
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Web.UI.runtimeconfig.json
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Web.UI.runtimeconfig.dev.json
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Web.UI.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Web.UI.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Web.UI.AssemblyInfo.cs
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Web.UI.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Web.UI.pdb

@@ -1,8 +1,0 @@
-version: '2'
-
-services:
-  cetaitquoilecontexte.web.ui:
-    image: cetaitquoilecontexte.web.ui
-    build:
-      context: ./CetaitQuoiLeContexte.Web.UI
-      dockerfile: Dockerfile

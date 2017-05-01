@@ -29,6 +29,9 @@ namespace CetaitQuoiLeContexte.Web.UI
         {
             // Add framework services.
             services.AddMvc();
+
+            services.AddTransient<Core.Interfaces.Data.IContext, Core.Data.Context>();
+            services.AddTransient<Core.Interfaces.Data.IPerson, Core.Data.Person>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
