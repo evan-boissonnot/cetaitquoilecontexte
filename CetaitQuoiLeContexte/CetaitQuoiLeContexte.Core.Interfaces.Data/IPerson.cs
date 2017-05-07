@@ -4,13 +4,8 @@ using System.Text;
 
 namespace CetaitQuoiLeContexte.Core.Interfaces.Data
 {
-    public interface IPerson
+    public interface IPerson : Boissonnot.Framework.Core.Interfaces.Data.IParentModel
     {
-        /// <summary>
-        /// Id de la personne
-        /// </summary>
-        int Id { get; set; }
-
         /// <summary>
         /// Prénom de la personne
         /// </summary>

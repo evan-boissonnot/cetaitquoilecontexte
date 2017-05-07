@@ -1,0 +1,13 @@
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.DependanceInjection.deps.json
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.DependanceInjection.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.DependanceInjection.csprojResolveAssemblyReference.cache
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.DependanceInjection.AssemblyInfo.cs
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.DependanceInjection.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Interfaces.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Interfaces.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.DependanceInjection.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.DependanceInjection\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.DependanceInjection.pdb

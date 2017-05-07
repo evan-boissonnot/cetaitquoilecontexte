@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 namespace CetaitQuoiLeContexte.Web.UI
 {
@@ -30,8 +31,8 @@ namespace CetaitQuoiLeContexte.Web.UI
             // Add framework services.
             services.AddMvc();
 
-            services.AddTransient<Core.Interfaces.Data.IContext, Core.Data.Context>();
-            services.AddTransient<Core.Interfaces.Data.IPerson, Core.Data.Person>();
+            services.AddDbContext<Core.Data.DataDbContext>(options => 
+                                                           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

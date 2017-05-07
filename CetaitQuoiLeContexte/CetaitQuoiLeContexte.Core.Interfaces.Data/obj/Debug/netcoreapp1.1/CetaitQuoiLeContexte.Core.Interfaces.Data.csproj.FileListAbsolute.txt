@@ -1,0 +1,9 @@
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.deps.json
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Interfaces.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Interfaces.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.csprojResolveAssemblyReference.cache
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.AssemblyInfo.cs
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb

@@ -4,13 +4,8 @@ using System.Text;
 
 namespace CetaitQuoiLeContexte.Core.Interfaces.Data
 {
-    public interface IContext
+    public interface IContext : Boissonnot.Framework.Core.Interfaces.Data.IParentModel
     {
-        /// <summary>
-        /// Id de l'item
-        /// </summary>
-        int Id { get; set; }
-
         /// <summary>
         /// Contenu du context
         /// </summary>

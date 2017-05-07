@@ -3905,6 +3905,13 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "Boissonnot.Framework.Core.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.1"
+        }
+      },
       "CetaitQuoiLeContexte.Core.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
@@ -3918,6 +3925,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
           "Microsoft.NETCore.App": "1.1.1"
         }
       }
@@ -10277,6 +10285,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "Boissonnot.Framework.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj",
+      "msbuildProject": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj"
+    },
     "CetaitQuoiLeContexte.Core.Data/1.0.0": {
       "type": "project",
       "path": "../CetaitQuoiLeContexte.Core.Data/CetaitQuoiLeContexte.Core.Data.csproj",
@@ -10296,6 +10309,7 @@
       "Microsoft.AspNetCore >= 1.1.1",
       "Microsoft.AspNetCore.Mvc >= 1.1.2",
       "Microsoft.AspNetCore.StaticFiles >= 1.1.1",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 1.1.1",
       "Microsoft.Extensions.Logging.Debug >= 1.1.1",
       "Microsoft.NETCore.App >= 1.1.1",
       "Microsoft.VisualStudio.Web.BrowserLink >= 1.1.0"
@@ -10347,6 +10361,10 @@
           "Microsoft.VisualStudio.Web.BrowserLink": {
             "target": "Package",
             "version": "1.1.0"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "1.1.1"
           },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",

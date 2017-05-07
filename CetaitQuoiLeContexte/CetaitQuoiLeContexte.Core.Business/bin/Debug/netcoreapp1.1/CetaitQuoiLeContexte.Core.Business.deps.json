@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "cetaitquoilecontexte.core.business/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Business.dll": {}
+        }
+      },
+      "boissonnot.framework.core.business/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Boissonnot.Framework.Core.Business.dll": {}
+        }
+      },
+      "boissonnot.framework.core.interfaces/1.0.0": {
+        "runtime": {
+          "Boissonnot.Framework.Core.Interfaces.dll": {}
+        }
+      },
+      "cetaitquoilecontexte.core.interfaces.business/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Business.dll": {}
+        }
+      },
+      "cetaitquoilecontexte.core.interfaces.data/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cetaitquoilecontexte.core.business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "boissonnot.framework.core.business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "boissonnot.framework.core.interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cetaitquoilecontexte.core.interfaces.business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cetaitquoilecontexte.core.interfaces.data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

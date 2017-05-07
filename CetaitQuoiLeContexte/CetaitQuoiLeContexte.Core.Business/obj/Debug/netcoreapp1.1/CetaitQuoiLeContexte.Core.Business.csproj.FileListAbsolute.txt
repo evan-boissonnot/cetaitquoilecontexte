@@ -1,0 +1,15 @@
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.deps.json
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Business.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Interfaces.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Business.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Business.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Interfaces.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Business.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.csprojResolveAssemblyReference.cache
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.AssemblyInfo.cs
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.pdb
