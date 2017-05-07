@@ -2617,6 +2617,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
           "Microsoft.NETCore.App": "1.1.1"
         }
       },
@@ -2634,6 +2635,7 @@
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
           "Microsoft.NETCore.App": "1.1.1"
         }
       }

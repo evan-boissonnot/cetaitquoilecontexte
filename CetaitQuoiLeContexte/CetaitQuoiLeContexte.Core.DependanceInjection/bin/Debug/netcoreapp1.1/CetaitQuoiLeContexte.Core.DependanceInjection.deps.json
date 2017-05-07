@@ -193,6 +193,9 @@
         }
       },
       "boissonnot.framework.core.interfaces/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1"
+        },
         "runtime": {
           "Boissonnot.Framework.Core.Interfaces.dll": {}
         }
@@ -208,7 +211,8 @@
       },
       "cetaitquoilecontexte.core.interfaces.data/1.0.0": {
         "dependencies": {
-          "Boissonnot.Framework.Core.Interfaces": "1.0.0"
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1"
         },
         "runtime": {
           "CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}

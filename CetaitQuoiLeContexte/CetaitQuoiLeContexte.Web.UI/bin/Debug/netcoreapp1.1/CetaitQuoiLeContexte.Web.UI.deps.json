@@ -1575,6 +1575,7 @@
       },
       "boissonnot.framework.core.interfaces/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
           "Microsoft.NETCore.App": "1.1.1"
         },
         "runtime": {
@@ -1600,6 +1601,7 @@
       "cetaitquoilecontexte.core.interfaces.data/1.0.0": {
         "dependencies": {
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
           "Microsoft.NETCore.App": "1.1.1"
         },
         "runtime": {
