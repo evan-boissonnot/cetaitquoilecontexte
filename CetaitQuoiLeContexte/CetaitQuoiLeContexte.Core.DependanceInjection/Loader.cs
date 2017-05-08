@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Boissonnot.Framework.Core.Interfaces.Data;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 
 namespace CetaitQuoiLeContexte.Core.DependanceInjection
@@ -12,6 +13,8 @@ namespace CetaitQuoiLeContexte.Core.DependanceInjection
         /// <param name="services"></param>
         public static void Configure(this IServiceCollection services)
         {
+            services.AddTransient<IDatabaseInitializer, Core.Data.DbInitializer>();
+
             ConfigureModels(services);
             ConfigureServices(services);
         }

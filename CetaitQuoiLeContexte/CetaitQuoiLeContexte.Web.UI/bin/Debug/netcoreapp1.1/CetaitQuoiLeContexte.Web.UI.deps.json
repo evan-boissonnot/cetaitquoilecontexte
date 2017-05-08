@@ -23,7 +23,9 @@
     ".NETCoreApp,Version=v1.1": {
       "cetaitquoilecontexte.web.ui/1.0.0": {
         "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
           "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.DependanceInjection": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.ApplicationInsights.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore": "1.1.1",
@@ -1596,6 +1598,21 @@
         },
         "compile": {
           "CetaitQuoiLeContexte.Core.Data.dll": {}
+        }
+      },
+      "cetaitquoilecontexte.core.dependanceinjection/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "Microsoft.NETCore.App": "1.1.1"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.DependanceInjection.dll": {}
+        },
+        "compile": {
+          "CetaitQuoiLeContexte.Core.DependanceInjection.dll": {}
         }
       },
       "cetaitquoilecontexte.core.interfaces.data/1.0.0": {
@@ -3962,6 +3979,11 @@
       "sha512": ""
     },
     "cetaitquoilecontexte.core.data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cetaitquoilecontexte.core.dependanceinjection/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

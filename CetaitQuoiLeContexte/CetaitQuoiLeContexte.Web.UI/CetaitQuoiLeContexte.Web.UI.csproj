@@ -20,7 +20,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Data\CetaitQuoiLeContexte.Core.Data.csproj" />
+    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.DependanceInjection\CetaitQuoiLeContexte.Core.DependanceInjection.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Data\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj" />
   </ItemGroup>
 

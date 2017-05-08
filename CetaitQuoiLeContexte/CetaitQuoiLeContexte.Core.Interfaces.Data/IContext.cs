@@ -17,6 +17,11 @@ namespace CetaitQuoiLeContexte.Core.Interfaces.Data
         IPerson Author { get; set; }
 
         /// <summary>
+        /// Id de l'auteur
+        /// </summary>
+        int AuthorId { get; set; }
+
+        /// <summary>
         /// Date de création
         /// </summary>
         DateTime CreatedDate { get; set; }

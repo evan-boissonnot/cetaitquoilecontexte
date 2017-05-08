@@ -7801,6 +7801,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "Boissonnot.Framework.Core.Interfaces >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Data >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Interfaces.Data >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 1.1.0",
@@ -7824,6 +7825,9 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
+            "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
+            },
             "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Data\\CetaitQuoiLeContexte.Core.Data.csproj": {
               "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Data\\CetaitQuoiLeContexte.Core.Data.csproj"
             },

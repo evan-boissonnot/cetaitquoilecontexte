@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v1.1": {
       "cetaitquoilecontexte.core.dependanceinjection/1.0.0": {
         "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
           "CetaitQuoiLeContexte.Core.Data": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0"

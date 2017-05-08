@@ -18,6 +18,8 @@ namespace CetaitQuoiLeContexte.Core.Data
 
         public IPerson Author { get; set; }
 
+        public int AuthorId { get; set; }
+
         [Required]
         public DateTime CreatedDate { get; set; }
     }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -18,6 +19,12 @@ namespace CetaitQuoiLeContexte.Core.Data
         #region Internal methods
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Core.Data.Context>()
+            .HasOne(h => (Core.Data.Person) h.Author)
+            .WithOne();
+
             modelBuilder.Entity<Core.Data.Context>().ToTable(typeof(Core.Data.Context).Name);
             modelBuilder.Entity<Core.Data.Person>().ToTable(typeof(Core.Data.Person).Name);
         }

@@ -3922,6 +3922,17 @@
           "Microsoft.NETCore.App": "1.1.1"
         }
       },
+      "CetaitQuoiLeContexte.Core.DependanceInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "Microsoft.NETCore.App": "1.1.1"
+        }
+      },
       "CetaitQuoiLeContexte.Core.Interfaces.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
@@ -10297,6 +10308,11 @@
       "path": "../CetaitQuoiLeContexte.Core.Data/CetaitQuoiLeContexte.Core.Data.csproj",
       "msbuildProject": "../CetaitQuoiLeContexte.Core.Data/CetaitQuoiLeContexte.Core.Data.csproj"
     },
+    "CetaitQuoiLeContexte.Core.DependanceInjection/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.DependanceInjection/CetaitQuoiLeContexte.Core.DependanceInjection.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.DependanceInjection/CetaitQuoiLeContexte.Core.DependanceInjection.csproj"
+    },
     "CetaitQuoiLeContexte.Core.Interfaces.Data/1.0.0": {
       "type": "project",
       "path": "../CetaitQuoiLeContexte.Core.Interfaces.Data/CetaitQuoiLeContexte.Core.Interfaces.Data.csproj",
@@ -10305,7 +10321,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "Boissonnot.Framework.Core.Interfaces >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Data >= 1.0.0",
+      "CetaitQuoiLeContexte.Core.DependanceInjection >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Interfaces.Data >= 1.0.0",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.1",
@@ -10334,8 +10352,14 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
+            "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
+            },
             "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Data\\CetaitQuoiLeContexte.Core.Data.csproj": {
               "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Data\\CetaitQuoiLeContexte.Core.Data.csproj"
+            },
+            "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.DependanceInjection\\CetaitQuoiLeContexte.Core.DependanceInjection.csproj": {
+              "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.DependanceInjection\\CetaitQuoiLeContexte.Core.DependanceInjection.csproj"
             },
             "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj": {
               "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj"
