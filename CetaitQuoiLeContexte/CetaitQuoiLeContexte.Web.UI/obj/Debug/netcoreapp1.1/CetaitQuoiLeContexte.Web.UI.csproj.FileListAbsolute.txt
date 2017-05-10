@@ -15,3 +15,11 @@ C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiL
 C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.pdb
 C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.DependanceInjection.dll
 C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.DependanceInjection.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Business.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContext.Core.Web.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Business.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContext.Core.Web.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Business.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.UI\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Business.pdb

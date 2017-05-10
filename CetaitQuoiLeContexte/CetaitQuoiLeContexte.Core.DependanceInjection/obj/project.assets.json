@@ -2613,11 +2613,31 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "Boissonnot.Framework.Core.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "Microsoft.NETCore.App": "1.1.1"
+        }
+      },
       "Boissonnot.Framework.Core.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
+          "Microsoft.NETCore.App": "1.1.1"
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.NETCore.App": "1.1.1"
         }
       },
@@ -2627,6 +2647,16 @@
         "dependencies": {
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1",
+          "Microsoft.NETCore.App": "1.1.1"
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.NETCore.App": "1.1.1"
         }
       },
@@ -7783,15 +7813,30 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "Boissonnot.Framework.Core.Business/1.0.0": {
+      "type": "project",
+      "path": "../Boissonnot.Framework.Core.Business/Boissonnot.Framework.Core.Business.csproj",
+      "msbuildProject": "../Boissonnot.Framework.Core.Business/Boissonnot.Framework.Core.Business.csproj"
+    },
     "Boissonnot.Framework.Core.Interfaces/1.0.0": {
       "type": "project",
       "path": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj",
       "msbuildProject": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj"
     },
+    "CetaitQuoiLeContexte.Core.Business/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.Business/CetaitQuoiLeContexte.Core.Business.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.Business/CetaitQuoiLeContexte.Core.Business.csproj"
+    },
     "CetaitQuoiLeContexte.Core.Data/1.0.0": {
       "type": "project",
       "path": "../CetaitQuoiLeContexte.Core.Data/CetaitQuoiLeContexte.Core.Data.csproj",
       "msbuildProject": "../CetaitQuoiLeContexte.Core.Data/CetaitQuoiLeContexte.Core.Data.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.Interfaces.Business/CetaitQuoiLeContexte.Core.Interfaces.Business.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.Interfaces.Business/CetaitQuoiLeContexte.Core.Interfaces.Business.csproj"
     },
     "CetaitQuoiLeContexte.Core.Interfaces.Data/1.0.0": {
       "type": "project",
@@ -7801,8 +7846,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "Boissonnot.Framework.Core.Business >= 1.0.0",
       "Boissonnot.Framework.Core.Interfaces >= 1.0.0",
+      "CetaitQuoiLeContexte.Core.Business >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Data >= 1.0.0",
+      "CetaitQuoiLeContexte.Core.Interfaces.Business >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Interfaces.Data >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 1.1.0",
       "Microsoft.NETCore.App >= 1.1.1"
@@ -7825,6 +7873,15 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
+            "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Business\\Boissonnot.Framework.Core.Business.csproj": {
+              "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Business\\Boissonnot.Framework.Core.Business.csproj"
+            },
+            "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj": {
+              "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj"
+            },
+            "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj": {
+              "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj"
+            },
             "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
               "projectPath": "C:\\Users\\Evan\\Source\\Repos\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
             },

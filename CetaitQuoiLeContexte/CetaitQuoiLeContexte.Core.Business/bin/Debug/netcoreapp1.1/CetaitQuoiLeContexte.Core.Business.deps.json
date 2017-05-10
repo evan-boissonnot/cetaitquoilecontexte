@@ -10,6 +10,7 @@
         "dependencies": {
           "Boissonnot.Framework.Core.Business": "1.0.0",
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
         },
@@ -209,6 +210,15 @@
           "Boissonnot.Framework.Core.Interfaces.dll": {}
         }
       },
+      "cetaitquoilecontexte.core.data/1.0.0": {
+        "dependencies": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Data.dll": {}
+        }
+      },
       "cetaitquoilecontexte.core.interfaces.business/1.0.0": {
         "dependencies": {
           "Boissonnot.Framework.Core.Business": "1.0.0",
@@ -389,6 +399,11 @@
       "sha512": ""
     },
     "boissonnot.framework.core.interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cetaitquoilecontexte.core.data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

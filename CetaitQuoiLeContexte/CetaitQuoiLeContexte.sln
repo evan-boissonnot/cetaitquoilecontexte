@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boissonnot.Framework.Core.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContexte.Core.Business", "CetaitQuoiLeContexte.Core.Business\CetaitQuoiLeContexte.Core.Business.csproj", "{3670A8C5-FFA6-405F-B131-C28DB1219E70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContext.Core.Web", "CetaitQuoiLeContext.Core.Web\CetaitQuoiLeContext.Core.Web.csproj", "{76AFD610-519C-403B-B6C3-AA20D29065E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{3670A8C5-FFA6-405F-B131-C28DB1219E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3670A8C5-FFA6-405F-B131-C28DB1219E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3670A8C5-FFA6-405F-B131-C28DB1219E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AFD610-519C-403B-B6C3-AA20D29065E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AFD610-519C-403B-B6C3-AA20D29065E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AFD610-519C-403B-B6C3-AA20D29065E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AFD610-519C-403B-B6C3-AA20D29065E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,5 +86,6 @@ Global
 		{2CE5A456-B3B0-4573-9158-8D4917340AAC} = {F26F00B8-3B99-4268-B8F5-98C66E23D6DB}
 		{7B572A8A-153F-4CEA-9A79-240681C6BD83} = {F26F00B8-3B99-4268-B8F5-98C66E23D6DB}
 		{3670A8C5-FFA6-405F-B131-C28DB1219E70} = {4BBC87BC-CB1C-4446-B327-C391F6E89271}
+		{76AFD610-519C-403B-B6C3-AA20D29065E7} = {4BBC87BC-CB1C-4446-B327-C391F6E89271}
 	EndGlobalSection
 EndGlobal

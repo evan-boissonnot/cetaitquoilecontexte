@@ -53,6 +53,8 @@ namespace CetaitQuoiLeContexte.Web.UI
                               ILoggerFactory loggerFactory, IServiceProvider serviceProvider,
                               Core.Data.DataDbContext context)
         {
+            app.UseStatusCodePages();
+
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 

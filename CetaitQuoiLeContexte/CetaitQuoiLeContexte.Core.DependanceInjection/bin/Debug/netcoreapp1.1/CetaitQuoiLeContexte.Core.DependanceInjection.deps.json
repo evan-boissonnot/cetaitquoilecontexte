@@ -8,8 +8,11 @@
     ".NETCoreApp,Version=v1.1": {
       "cetaitquoilecontexte.core.dependanceinjection/1.0.0": {
         "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Business": "1.0.0",
           "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0"
         },
@@ -193,12 +196,32 @@
           }
         }
       },
+      "boissonnot.framework.core.business/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Boissonnot.Framework.Core.Business.dll": {}
+        }
+      },
       "boissonnot.framework.core.interfaces/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.1"
         },
         "runtime": {
           "Boissonnot.Framework.Core.Interfaces.dll": {}
+        }
+      },
+      "cetaitquoilecontexte.core.business/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Business.dll": {}
         }
       },
       "cetaitquoilecontexte.core.data/1.0.0": {
@@ -208,6 +231,16 @@
         },
         "runtime": {
           "CetaitQuoiLeContexte.Core.Data.dll": {}
+        }
+      },
+      "cetaitquoilecontexte.core.interfaces.business/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Business.dll": {}
         }
       },
       "cetaitquoilecontexte.core.interfaces.data/1.0.0": {
@@ -374,12 +407,27 @@
       "path": "system.text.encoding.codepages/4.3.0",
       "hashPath": "system.text.encoding.codepages.4.3.0.nupkg.sha512"
     },
+    "boissonnot.framework.core.business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "boissonnot.framework.core.interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
+    "cetaitquoilecontexte.core.business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "cetaitquoilecontexte.core.data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cetaitquoilecontexte.core.interfaces.business/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

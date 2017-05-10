@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Boissonnot.Framework.Core.Business\Boissonnot.Framework.Core.Business.csproj" />
     <ProjectReference Include="..\Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Data\CetaitQuoiLeContexte.Core.Data.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Business\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Data\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj" />
   </ItemGroup>

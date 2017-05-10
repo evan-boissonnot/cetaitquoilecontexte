@@ -23,7 +23,7 @@ namespace CetaitQuoiLeContexte.Core.DependanceInjection
         #region Internal methods
         private static void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddTransient<Core.Interfaces.Business.IContextBusiness, Core.Business.ContextBusiness>();
         }
 
         private static void ConfigureModels(IServiceCollection services)

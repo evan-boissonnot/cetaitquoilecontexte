@@ -13,3 +13,5 @@ C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiL
 C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.AssemblyInfo.cs
 C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.dll
 C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Business.pdb
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.dll
+C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.pdb
