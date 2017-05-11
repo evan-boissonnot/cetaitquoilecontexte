@@ -21,7 +21,6 @@ namespace CetaitQuoiLeContexte.Core.Data
         {
             base.OnModelCreating(modelBuilder);
 
-
             //http://stackoverflow.com/questions/39088486/explicitly-map-interface-member-in-entity-framework-7
             modelBuilder.Entity<Core.Data.Context>()
             .HasOne(h => (Core.Data.Person) h.Author)

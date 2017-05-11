@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using Boissonnot.Framework.Core.Interfaces.Filters;
 using CetaitQuoiLeContexte.Core.Interfaces.Data;
+using System.Linq;
+using CetaitQuoiLeContexte.Core.Business.Filters;
 
 namespace CetaitQuoiLeContexte.Core.Business
 {
@@ -37,17 +39,33 @@ namespace CetaitQuoiLeContexte.Core.Business
 
         public List<IContext> SelectAll()
         {
-            throw new NotImplementedException();
+            return this.SelectAll(null);
         }
 
         public List<IContext> SelectAll(IParentFilter<IContext> filter)
         {
-            throw new NotImplementedException(); 
+            var query = this._context.Contexts.AsQueryable();
+
+            if(filter != null)
+            {
+                if(filter.Id > 0)
+                    query = query.Where(item => item.Id == filter.Id);
+
+                ContextFilter contextFilter = filter as ContextFilter;
+                if(contextFilter != null)
+                {
+                    if (contextFilter.BeginDate > DateTime.MinValue)
+                        query = query.Where(item => item.CreatedDate >= contextFilter.BeginDate);
+                }
+            }
+
+            return query.Cast<IContext>()
+                        .ToList();
         }
 
         public IContext SelectOne(int id)
         {
-            throw new NotImplementedException();
+            return this._context.Contexts.First(item => item.Id == id);
         }
         #endregion
     }

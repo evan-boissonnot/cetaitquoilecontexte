@@ -12,6 +12,11 @@ namespace CetaitQuoiLeContexte.Core.Business.Filters
         public int Id { get; set; }
 
         public IContext Model { get; set; }
+
+        /// <summary>
+        /// Date de création du contexte
+        /// </summary>
+        public DateTime BeginDate { get; set; }
         #endregion
     }
 }

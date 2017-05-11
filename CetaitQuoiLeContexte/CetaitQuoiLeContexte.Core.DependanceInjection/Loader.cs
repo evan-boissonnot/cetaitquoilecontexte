@@ -1,4 +1,6 @@
 ﻿using Boissonnot.Framework.Core.Interfaces.Data;
+using Boissonnot.Framework.Core.Interfaces.Filters;
+using CetaitQuoiLeContexte.Core.Interfaces.Data;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
@@ -30,6 +32,8 @@ namespace CetaitQuoiLeContexte.Core.DependanceInjection
         {
             services.AddTransient<Core.Interfaces.Data.IContext, Core.Data.Context>();
             services.AddTransient<Core.Interfaces.Data.IPerson, Core.Data.Person>();
+
+            services.AddTransient<IParentFilter<IContext>, Core.Business.Filters.ContextFilter>();
         }
         #endregion
     }
