@@ -30,9 +30,7 @@ namespace CetaitQuoiLeContext.Core.Web.Controllers
         {
             IParentFilter<IContext> filter = this._serviceProvider.GetService<IParentFilter<IContext>>();
 
-            this.ViewBag.Items = this._business.SelectAll();
-
-            return this.View();
+            return this.View(this._business.SelectAll());
         }
         #endregion
     }
