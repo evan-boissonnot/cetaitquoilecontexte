@@ -1,13 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Text;
 
 namespace CetaitQuoiLeContexte.Core.Data
 {
+
+    /// <summary>
+    /// Pour migration, manquait des références, à ajouter dans le csproj : https://github.com/aspnet/EntityFramework/issues/7869
+    /// </summary>
     public class DataDbContext : DbContext
     {
         #region Constructors
@@ -24,7 +31,7 @@ namespace CetaitQuoiLeContexte.Core.Data
             //http://stackoverflow.com/questions/39088486/explicitly-map-interface-member-in-entity-framework-7
             modelBuilder.Entity<Core.Data.Context>()
             .HasOne(h => (Core.Data.Person) h.Author)
-            .WithOne();
+            .WithMany();
 
             modelBuilder.Entity<Core.Data.Context>().ToTable(typeof(Core.Data.Context).Name);
             modelBuilder.Entity<Core.Data.Person>().ToTable(typeof(Core.Data.Person).Name);
