@@ -34,7 +34,23 @@ namespace CetaitQuoiLeContexte.Core.Business
 
         public void Save(IContext item)
         {
-            throw new NotImplementedException();
+            if(item.Id == 0)
+            {
+                Data.Context data = new Data.Context()
+                {
+                    CreatedDate = DateTime.Now,
+                    Message = item.Message,
+                    Author = new Data.Person()
+                    {
+                        Name = item.Author.Name
+                    }
+                };
+
+                this._context.Contexts.Add(data);
+                this._context.SaveChanges();
+
+                item.Id = data.Id;
+            }
         }
 
         public List<IContext> SelectAll()
