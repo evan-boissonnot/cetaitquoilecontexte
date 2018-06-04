@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CetaitQuoiLeContexte",
+    "\\CetaitQuoiLeContexte\\CetaitQuoiLeContext.Core.Web",
+    "\\CetaitQuoiLeContexte\\CetaitQuoiLeContext.Core.Web\\Controllers",
+    "\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business",
+    "\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\Filters"
   ],
+  "SelectedNode": "\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\Filters\\ContextFilter.cs",
   "PreviewInSolutionExplorer": false
 }

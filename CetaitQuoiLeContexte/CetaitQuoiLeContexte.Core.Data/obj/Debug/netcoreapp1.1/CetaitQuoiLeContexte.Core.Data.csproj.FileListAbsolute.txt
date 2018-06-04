@@ -9,3 +9,17 @@ C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiL
 C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Interfaces.pdb
 C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.dll
 C:\Users\Evan\Source\Repos\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.deps.json
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Interfaces.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp1.1\Boissonnot.Framework.Core.Interfaces.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.csprojResolveAssemblyReference.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.csproj.CoreCompileInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.AssemblyInfoInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.AssemblyInfo.cs
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.csproj.CopyComplete
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp1.1\CetaitQuoiLeContexte.Core.Data.pdb

@@ -1,0 +1,12 @@
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.deps.json
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\bin\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.csprojResolveAssemblyReference.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj.CoreCompileInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.AssemblyInfoInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.AssemblyInfo.cs
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj.CopyComplete
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb

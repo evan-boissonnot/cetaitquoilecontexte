@@ -3,31 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContexte.Web.UI", "CetaitQuoiLeContexte.Web.UI\CetaitQuoiLeContexte.Web.UI.csproj", "{5E9C2E5B-FB2D-4554-BE1B-A1EC65564C1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContexte.Core.Data", "CetaitQuoiLeContexte.Core.Data\CetaitQuoiLeContexte.Core.Data.csproj", "{E5A30535-B32C-4021-8375-FD2C3B36A5EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContexte.Core.Data", "CetaitQuoiLeContexte.Core.Data\CetaitQuoiLeContexte.Core.Data.csproj", "{E5A30535-B32C-4021-8375-FD2C3B36A5EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContexte.Core.Interfaces.Data", "CetaitQuoiLeContexte.Core.Interfaces.Data\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj", "{E61979E7-F203-4BC7-BBF5-D1F288F2361E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContexte.Core.Interfaces.Data", "CetaitQuoiLeContexte.Core.Interfaces.Data\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj", "{E61979E7-F203-4BC7-BBF5-D1F288F2361E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContexte.Core.DependanceInjection", "CetaitQuoiLeContexte.Core.DependanceInjection\CetaitQuoiLeContexte.Core.DependanceInjection.csproj", "{8FE0E881-20B0-4C4E-9664-508CD573E930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContexte.Core.DependanceInjection", "CetaitQuoiLeContexte.Core.DependanceInjection\CetaitQuoiLeContexte.Core.DependanceInjection.csproj", "{8FE0E881-20B0-4C4E-9664-508CD573E930}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{4BBC87BC-CB1C-4446-B327-C391F6E89271}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Interfaces", ".Interfaces", "{A56F2A95-4A78-49B3-9BB0-A040CAED3569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContexte.Core.Interfaces.Business", "CetaitQuoiLeContexte.Core.Interfaces.Business\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj", "{C9E3594D-C820-46C2-9169-8737ECC560D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContexte.Core.Interfaces.Business", "CetaitQuoiLeContexte.Core.Interfaces.Business\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj", "{C9E3594D-C820-46C2-9169-8737ECC560D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boissonnot.Framework.Core.Interfaces", "Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj", "{9FC814A4-46CE-48B3-B369-4E51DD9ED2E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boissonnot.Framework.Core.Interfaces", "Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj", "{9FC814A4-46CE-48B3-B369-4E51DD9ED2E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Framework", ".Framework", "{F26F00B8-3B99-4268-B8F5-98C66E23D6DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Interfaces", ".Interfaces", "{2CE5A456-B3B0-4573-9158-8D4917340AAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boissonnot.Framework.Core.Business", "Boissonnot.Framework.Core.Business\Boissonnot.Framework.Core.Business.csproj", "{7B572A8A-153F-4CEA-9A79-240681C6BD83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boissonnot.Framework.Core.Business", "Boissonnot.Framework.Core.Business\Boissonnot.Framework.Core.Business.csproj", "{7B572A8A-153F-4CEA-9A79-240681C6BD83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContexte.Core.Business", "CetaitQuoiLeContexte.Core.Business\CetaitQuoiLeContexte.Core.Business.csproj", "{3670A8C5-FFA6-405F-B131-C28DB1219E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContexte.Core.Business", "CetaitQuoiLeContexte.Core.Business\CetaitQuoiLeContexte.Core.Business.csproj", "{3670A8C5-FFA6-405F-B131-C28DB1219E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContext.Core.Web", "CetaitQuoiLeContext.Core.Web\CetaitQuoiLeContext.Core.Web.csproj", "{76AFD610-519C-403B-B6C3-AA20D29065E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContext.Core.Web", "CetaitQuoiLeContext.Core.Web\CetaitQuoiLeContext.Core.Web.csproj", "{76AFD610-519C-403B-B6C3-AA20D29065E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E9C2E5B-FB2D-4554-BE1B-A1EC65564C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E9C2E5B-FB2D-4554-BE1B-A1EC65564C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E9C2E5B-FB2D-4554-BE1B-A1EC65564C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E9C2E5B-FB2D-4554-BE1B-A1EC65564C1B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E5A30535-B32C-4021-8375-FD2C3B36A5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5A30535-B32C-4021-8375-FD2C3B36A5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5A30535-B32C-4021-8375-FD2C3B36A5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,5 +81,8 @@ Global
 		{7B572A8A-153F-4CEA-9A79-240681C6BD83} = {F26F00B8-3B99-4268-B8F5-98C66E23D6DB}
 		{3670A8C5-FFA6-405F-B131-C28DB1219E70} = {4BBC87BC-CB1C-4446-B327-C391F6E89271}
 		{76AFD610-519C-403B-B6C3-AA20D29065E7} = {4BBC87BC-CB1C-4446-B327-C391F6E89271}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1343F22-3AAD-4AD8-8675-2A75BB0BD421}
 	EndGlobalSection
 EndGlobal
