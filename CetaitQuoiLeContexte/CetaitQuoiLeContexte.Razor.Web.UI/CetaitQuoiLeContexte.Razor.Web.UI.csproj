@@ -13,4 +13,12 @@
     <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.1" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Boissonnot.Framework.Core.Business\Boissonnot.Framework.Core.Business.csproj" />
+    <ProjectReference Include="..\Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Business\CetaitQuoiLeContexte.Core.Business.csproj" />
+    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.DependanceInjection\CetaitQuoiLeContexte.Core.DependanceInjection.csproj" />
+    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Business\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj" />
+    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Data\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj" />
+  </ItemGroup>
 </Project>

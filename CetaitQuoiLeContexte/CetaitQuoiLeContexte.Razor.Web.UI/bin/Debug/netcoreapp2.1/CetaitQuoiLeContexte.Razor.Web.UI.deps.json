@@ -24,6 +24,12 @@
     ".NETCoreApp,Version=v2.1": {
       "CetaitQuoiLeContexte.Razor.Web.UI/1.0.0": {
         "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.DependanceInjection": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.AspNetCore.All": "2.1.0",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
           "Microsoft.NETCore.App": "2.1.0",
@@ -511,6 +517,104 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "Boissonnot.Framework.Core.Business/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Boissonnot.Framework.Core.Business.dll": {}
+        },
+        "compile": {
+          "Boissonnot.Framework.Core.Business.dll": {}
+        }
+      },
+      "Boissonnot.Framework.Core.Interfaces/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0"
+        },
+        "runtime": {
+          "Boissonnot.Framework.Core.Interfaces.dll": {}
+        },
+        "compile": {
+          "Boissonnot.Framework.Core.Interfaces.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Business/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Business.dll": {}
+        },
+        "compile": {
+          "CetaitQuoiLeContexte.Core.Business.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Data/1.0.0": {
+        "dependencies": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0",
+          "Microsoft.Extensions.Configuration.Json": "2.1.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Data.dll": {}
+        },
+        "compile": {
+          "CetaitQuoiLeContexte.Core.Data.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.DependanceInjection/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.DependanceInjection.dll": {}
+        },
+        "compile": {
+          "CetaitQuoiLeContexte.Core.DependanceInjection.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Business.dll": {}
+        },
+        "compile": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Business.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Interfaces.Data/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}
+        },
+        "compile": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4190,6 +4294,41 @@
       "sha512": "sha512-td7x21K8LalpjTWCzW/nQboQIFbq9i0r+PCyBBCdLWWnm4NBcdN18vpz/G9hCpUaCIfRL+ZxJNVTywlNlB1aLQ==",
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
+    },
+    "Boissonnot.Framework.Core.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Boissonnot.Framework.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CetaitQuoiLeContexte.Core.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CetaitQuoiLeContexte.Core.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CetaitQuoiLeContexte.Core.DependanceInjection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CetaitQuoiLeContexte.Core.Interfaces.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Libuv/1.10.0": {
       "type": "package",

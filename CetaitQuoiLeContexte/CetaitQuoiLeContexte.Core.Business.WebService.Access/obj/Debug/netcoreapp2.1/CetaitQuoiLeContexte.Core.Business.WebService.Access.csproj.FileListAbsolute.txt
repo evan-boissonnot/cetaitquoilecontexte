@@ -1,0 +1,8 @@
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.deps.json
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj.CoreCompileInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.AssemblyInfoInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.AssemblyInfo.cs
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.pdb

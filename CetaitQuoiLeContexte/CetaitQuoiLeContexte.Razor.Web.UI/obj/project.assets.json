@@ -5539,6 +5539,118 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "Boissonnot.Framework.Core.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Boissonnot.Framework.Core.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Boissonnot.Framework.Core.Business.dll": {}
+        }
+      },
+      "Boissonnot.Framework.Core.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Boissonnot.Framework.Core.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Boissonnot.Framework.Core.Interfaces.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0",
+          "Microsoft.Extensions.Configuration.Json": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Data.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.DependanceInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.DependanceInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.DependanceInjection.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.Business.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Interfaces.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}
+        }
       }
     }
   },
@@ -14284,10 +14396,51 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "Boissonnot.Framework.Core.Business/1.0.0": {
+      "type": "project",
+      "path": "../Boissonnot.Framework.Core.Business/Boissonnot.Framework.Core.Business.csproj",
+      "msbuildProject": "../Boissonnot.Framework.Core.Business/Boissonnot.Framework.Core.Business.csproj"
+    },
+    "Boissonnot.Framework.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj",
+      "msbuildProject": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.Business/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.Business/CetaitQuoiLeContexte.Core.Business.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.Business/CetaitQuoiLeContexte.Core.Business.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.Data/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.Data/CetaitQuoiLeContexte.Core.Data.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.Data/CetaitQuoiLeContexte.Core.Data.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.DependanceInjection/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.DependanceInjection/CetaitQuoiLeContexte.Core.DependanceInjection.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.DependanceInjection/CetaitQuoiLeContexte.Core.DependanceInjection.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.Interfaces.Business/CetaitQuoiLeContexte.Core.Interfaces.Business.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.Interfaces.Business/CetaitQuoiLeContexte.Core.Interfaces.Business.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.Interfaces.Data/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.Interfaces.Data/CetaitQuoiLeContexte.Core.Interfaces.Data.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.Interfaces.Data/CetaitQuoiLeContexte.Core.Interfaces.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Boissonnot.Framework.Core.Business >= 1.0.0",
+      "Boissonnot.Framework.Core.Interfaces >= 1.0.0",
+      "CetaitQuoiLeContexte.Core.Business >= 1.0.0",
+      "CetaitQuoiLeContexte.Core.DependanceInjection >= 1.0.0",
+      "CetaitQuoiLeContexte.Core.Interfaces.Business >= 1.0.0",
+      "CetaitQuoiLeContexte.Core.Interfaces.Data >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.0",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -14323,7 +14476,26 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Business\\Boissonnot.Framework.Core.Business.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Business\\Boissonnot.Framework.Core.Business.csproj"
+            },
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
+            },
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj"
+            },
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.DependanceInjection\\CetaitQuoiLeContexte.Core.DependanceInjection.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.DependanceInjection\\CetaitQuoiLeContexte.Core.DependanceInjection.csproj"
+            },
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj"
+            },
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
