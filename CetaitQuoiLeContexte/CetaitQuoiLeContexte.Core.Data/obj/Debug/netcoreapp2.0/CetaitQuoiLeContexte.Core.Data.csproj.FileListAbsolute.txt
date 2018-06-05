@@ -14,3 +14,4 @@ F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Co
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Data.csproj.CopyComplete
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Data.dll
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Data.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp2.0\design-config.json

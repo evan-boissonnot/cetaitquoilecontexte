@@ -18,3 +18,4 @@ F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Co
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Business.csproj.CopyComplete
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Business.dll
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp2.0\CetaitQuoiLeContexte.Core.Business.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.0\design-config.json

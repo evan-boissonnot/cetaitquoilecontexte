@@ -67,11 +67,13 @@ namespace CetaitQuoiLeContexte.Core.Business
                 if(filter.Id > 0)
                     query = query.Where(item => item.Id == filter.Id);
 
-                ContextFilter contextFilter = filter as ContextFilter;
-                if(contextFilter != null)
+                if (filter is ContextFilter contextFilter)
                 {
                     if (contextFilter.BeginDate > DateTime.MinValue)
                         query = query.Where(item => item.CreatedDate >= contextFilter.BeginDate);
+
+                    if (!string.IsNullOrEmpty(contextFilter.From))
+                        query = query.Where(item => item.From.ToLower() == contextFilter.From.ToLower());
                 }
             }
 

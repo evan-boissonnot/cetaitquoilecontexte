@@ -17,6 +17,11 @@ namespace CetaitQuoiLeContexte.Core.Business.Filters
         /// Date de création du contexte
         /// </summary>
         public DateTime BeginDate { get; set; }
+
+        /// <summary>
+        /// Provenance précisée
+        /// </summary>
+        public string From { get; set; }
         #endregion
     }
 }

@@ -820,6 +820,33 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.FileExtensions/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.FileProviders.Physical": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -879,6 +906,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Composite.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
         }
       },
       "Microsoft.Extensions.FileSystemGlobbing/2.1.0": {
@@ -2704,7 +2744,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0"
         },
         "compile": {
           "bin/placeholder/Boissonnot.Framework.Core.Interfaces.dll": {}
@@ -2722,7 +2763,9 @@
           "Microsoft.EntityFrameworkCore.Design": "2.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
-          "Microsoft.Extensions.Configuration": "2.1.0"
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0",
+          "Microsoft.Extensions.Configuration.Json": "2.1.0"
         },
         "compile": {
           "bin/placeholder/CetaitQuoiLeContexte.Core.Data.dll": {}
@@ -3556,6 +3599,30 @@
         "microsoft.extensions.configuration.binder.nuspec"
       ]
     },
+    "Microsoft.Extensions.Configuration.FileExtensions/2.1.0": {
+      "sha512": "AL6NyY8dC8ZRFsH0pcuczjzAr2TzwZSpb93lAAoLKTe3F8XA8SJSFsImVpWCKmB/gngMQ9R2nZCLCxNpBN12UA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.fileextensions/2.1.0",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "microsoft.extensions.configuration.fileextensions.2.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Json/2.1.0": {
+      "sha512": "mOA1kLN0f3NiGVpEtIT5VbUcC75kuh1O4Q1wOITadmMwPb0o6eYMrvgfY5ojrbDi5b2QictGrAnOY+ziLO5UMg==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.json/2.1.0",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
+        "microsoft.extensions.configuration.json.2.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.json.nuspec"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection/2.1.0": {
       "sha512": "9lHaNBx9sW5I4Lxfb/jyKYgnyjggqST0bnkpyVNIudJtqoXayiVDO8GCIC+S3YRK+JM2oviDJh4X5tJzdXJoSg==",
       "type": "package",
@@ -3621,6 +3688,18 @@
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Composite.xml",
         "microsoft.extensions.fileproviders.composite.2.1.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.composite.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Physical/2.1.0": {
+      "sha512": "lCpzAFGDKXMip8A1IJCR7BzEvWXdTYAmiG6NK31m/xiuSjC5G4Se2X6OwyzmJwgW7tJ7TI1YOA3bXK7B3Jjs/Q==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.physical/2.1.0",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "microsoft.extensions.fileproviders.physical.2.1.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.nuspec"
       ]
     },
     "Microsoft.Extensions.FileSystemGlobbing/2.1.0": {

@@ -20,6 +20,8 @@ namespace CetaitQuoiLeContexte.Core.Data
 
         public int AuthorId { get; set; }
 
+        public string From { get; set; }
+
         [Required]
         public DateTime CreatedDate { get; set; }
     }

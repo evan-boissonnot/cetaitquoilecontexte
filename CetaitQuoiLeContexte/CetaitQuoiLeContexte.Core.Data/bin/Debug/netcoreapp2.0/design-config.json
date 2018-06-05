@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(local);Database=CetaitQuoiLeContexte.Database.local;User Id=ctqlc.user;Password=ctqlc.user!;MultipleActiveResultSets=true"
+  }
+}

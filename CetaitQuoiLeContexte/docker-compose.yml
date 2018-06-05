@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cetaitquoilecontexte.web.services.ui:
+    image: cetaitquoilecontextewebservicesui
+    build:
+      context: .
+      dockerfile: CetaitQuoiLeContexte.Web.Services.UI/Dockerfile

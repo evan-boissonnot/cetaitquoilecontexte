@@ -30,8 +30,8 @@ namespace CetaitQuoiLeContexte.Core.Data
 
             //http://stackoverflow.com/questions/39088486/explicitly-map-interface-member-in-entity-framework-7
             modelBuilder.Entity<Core.Data.Context>()
-            .HasOne(h => (Core.Data.Person) h.Author)
-            .WithMany();
+                        .HasOne(h => (Core.Data.Person) h.Author)
+                        .WithMany();
 
             modelBuilder.Entity<Core.Data.Context>().ToTable(typeof(Core.Data.Context).Name);
             modelBuilder.Entity<Core.Data.Person>().ToTable(typeof(Core.Data.Person).Name);

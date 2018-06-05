@@ -24,7 +24,6 @@ namespace CetaitQuoiLeContext.Core.Web.Controllers
         #endregion
 
         #region Public methods
-
         public IActionResult Add(string value)
         {
             IContext context = this._serviceProvider.GetService<IContext>();

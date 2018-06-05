@@ -1,0 +1,11 @@
+services:
+  cetaitquoilecontexte.web.services.ui:
+    build:
+      context: F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte
+      dockerfile: CetaitQuoiLeContexte.Web.Services.UI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: cetaitquoilecontextewebservicesui
+    ports:
+    - 80/tcp
+version: '3.0'

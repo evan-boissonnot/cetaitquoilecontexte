@@ -10,6 +10,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.0" />
   </ItemGroup>
   
   <ItemGroup>
@@ -18,6 +20,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Data\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="design-config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

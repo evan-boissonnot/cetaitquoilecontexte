@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "9b1f409d2bc8fbd02f327fd577249fb3e5bd6c59"
+    "signature": "81381224e293df636033ba984e3dd548f4cf1ca1"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,7 +13,9 @@
           "Microsoft.EntityFrameworkCore.Design": "2.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
-          "Microsoft.Extensions.Configuration": "2.1.0"
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0",
+          "Microsoft.Extensions.Configuration.Json": "2.1.0"
         },
         "runtime": {
           "CetaitQuoiLeContexte.Core.Data.dll": {}
@@ -116,6 +118,25 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.FileExtensions/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.FileProviders.Physical": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/2.1.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
@@ -127,6 +148,28 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
       "Microsoft.Extensions.Logging/2.1.0": {
@@ -182,6 +225,11 @@
             "rid": "win",
             "assetType": "runtime"
           }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -495,7 +543,8 @@
       },
       "Boissonnot.Framework.Core.Interfaces/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0"
         },
         "runtime": {
           "Boissonnot.Framework.Core.Interfaces.dll": {}
@@ -609,6 +658,20 @@
       "path": "microsoft.extensions.configuration.binder/2.1.0",
       "hashPath": "microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Configuration.FileExtensions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AL6NyY8dC8ZRFsH0pcuczjzAr2TzwZSpb93lAAoLKTe3F8XA8SJSFsImVpWCKmB/gngMQ9R2nZCLCxNpBN12UA==",
+      "path": "microsoft.extensions.configuration.fileextensions/2.1.0",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mOA1kLN0f3NiGVpEtIT5VbUcC75kuh1O4Q1wOITadmMwPb0o6eYMrvgfY5ojrbDi5b2QictGrAnOY+ziLO5UMg==",
+      "path": "microsoft.extensions.configuration.json/2.1.0",
+      "hashPath": "microsoft.extensions.configuration.json.2.1.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection/2.1.0": {
       "type": "package",
       "serviceable": true,
@@ -622,6 +685,27 @@
       "sha512": "sha512-Y139tetrEc1Y347FoOK8Oqm1S0aq8jPg5m6L4ti9N7ki0o4amSa7XOq048EhpeQnO/9jrVJKlqBdq/aQduW31A==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V9nYz+uL09zSV4hcR3mbmm16/YZM2ze4Ih7qqR4AHP3GbpKZZ+Ha8PDJ5+sA8bT6c2jFVJBNLgb48OnyAkztbw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.1.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lCpzAFGDKXMip8A1IJCR7BzEvWXdTYAmiG6NK31m/xiuSjC5G4Se2X6OwyzmJwgW7tJ7TI1YOA3bXK7B3Jjs/Q==",
+      "path": "microsoft.extensions.fileproviders.physical/2.1.0",
+      "hashPath": "microsoft.extensions.fileproviders.physical.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-onL7JuTzZsEOvw2UAiqTRZyw9MIVaLhUXpY6650U7AubYyU4jXEKHO8k4i53rfvMGkX8Ve2YinaSWhXmzgm2Jg==",
+      "path": "microsoft.extensions.filesystemglobbing/2.1.0",
+      "hashPath": "microsoft.extensions.filesystemglobbing.2.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/2.1.0": {
       "type": "package",
@@ -664,6 +748,13 @@
       "sha512": "sha512-vduxuHEqRgRrTE8wYG8Wxj/+6wwzddOmZzjKZx6rFMc/91aUBxI5etAFYxesoNaIja5NpgSTcnk6cN8BeYXf9A==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "Remotion.Linq/2.2.0": {
       "type": "package",

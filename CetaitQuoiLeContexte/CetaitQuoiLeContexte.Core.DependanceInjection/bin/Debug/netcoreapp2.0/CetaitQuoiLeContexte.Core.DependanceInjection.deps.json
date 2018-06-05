@@ -504,7 +504,8 @@
       },
       "Boissonnot.Framework.Core.Interfaces/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0"
         },
         "runtime": {
           "Boissonnot.Framework.Core.Interfaces.dll": {}

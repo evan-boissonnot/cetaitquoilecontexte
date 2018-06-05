@@ -25,5 +25,10 @@ namespace CetaitQuoiLeContexte.Core.Interfaces.Data
         /// Date de création
         /// </summary>
         DateTime CreatedDate { get; set; }
+
+        /// <summary>
+        /// Provenance
+        /// </summary>
+        string From { get; set; }
     }
 }

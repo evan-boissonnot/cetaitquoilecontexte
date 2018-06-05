@@ -1,0 +1,28 @@
+services:
+  cetaitquoilecontexte.web.services.ui:
+    build:
+      context: F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte
+      dockerfile: CetaitQuoiLeContexte.Web.Services.UI/Dockerfile
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+    image: cetaitquoilecontextewebservicesui:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
+        /root/.nuget/fallbackpackages2  bin/Debug/netcoreapp2.0/CetaitQuoiLeContexte.Web.Services.UI.dll'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - 80/tcp
+    volumes:
+    - F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI:/app:rw
+    - C:\Users\Evan\vsdbg\vs2017u5:/remote_debugger:ro
+    - C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback:/root/.nuget/fallbackpackages:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages2:ro
+    - C:\Users\Evan\.nuget\packages:/root/.nuget/packages:ro
+version: '3.0'
