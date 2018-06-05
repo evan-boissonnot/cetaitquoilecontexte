@@ -1,0 +1,16 @@
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.deps.json
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Data.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.csprojAssemblyReference.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj.CoreCompileInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.AssemblyInfoInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.AssemblyInfo.cs
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj.CopyComplete
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Interfaces.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Business.pdb

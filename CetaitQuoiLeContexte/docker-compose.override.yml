@@ -1,4 +1,4 @@
-version: '3'
+version: '3.4'
 
 services:
   cetaitquoilecontexte.web.services.ui:
@@ -6,3 +6,17 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "80"
+
+  cetaitquoilecontexte.web.ui:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+
+  cetaitquoilecontexte.razor.web.ui:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+

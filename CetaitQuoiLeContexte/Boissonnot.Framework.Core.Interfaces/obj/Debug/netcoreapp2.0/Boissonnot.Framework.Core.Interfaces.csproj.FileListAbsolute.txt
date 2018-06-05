@@ -1,11 +1,10 @@
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\bin\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.deps.json
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\bin\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.runtimeconfig.json
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\bin\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.runtimeconfig.dev.json
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\bin\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.dll
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\bin\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.pdb
-F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\obj\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.csprojResolveAssemblyReference.cache
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\obj\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.csproj.CoreCompileInputs.cache
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\obj\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.AssemblyInfoInputs.cache
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\obj\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.AssemblyInfo.cs
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\obj\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.dll
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\obj\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.pdb
-F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\bin\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.runtimeconfig.json
-F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\bin\Debug\netcoreapp2.0\Boissonnot.Framework.Core.Interfaces.runtimeconfig.dev.json

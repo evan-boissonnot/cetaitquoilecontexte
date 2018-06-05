@@ -1,4 +1,4 @@
-version: '3'
+version: '3.4'
 
 services:
   cetaitquoilecontexte.web.services.ui:
@@ -6,3 +6,17 @@ services:
     build:
       context: .
       dockerfile: CetaitQuoiLeContexte.Web.Services.UI/Dockerfile
+
+  cetaitquoilecontexte.web.ui:
+    image: cetaitquoilecontextewebui
+    build:
+      context: .
+      dockerfile: ../CetaitQuoiLeContexte.Web.UI/Dockerfile
+
+
+  cetaitquoilecontexte.razor.web.ui:
+    image: cetaitquoilecontexterazorwebui
+    build:
+      context: .
+      dockerfile: ../CetaitQuoiLeContexte.Razor.Web.UI/Dockerfile
+

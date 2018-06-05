@@ -54,8 +54,7 @@ namespace CetaitQuoiLeContexte.Web.Services.UI
             app.UseMvc(option =>
             {
                 // 05/06/2018 : custom routes
-            });
-            
+            });            
 
             this._dbInitializer = serviceProvider.GetService<IDatabaseInitializer>();
             this._dbInitializer.Initialize(context);

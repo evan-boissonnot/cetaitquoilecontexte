@@ -1,4 +1,13 @@
 services:
+  cetaitquoilecontexte.razor.web.ui:
+    build:
+      context: F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte
+      dockerfile: ../CetaitQuoiLeContexte.Razor.Web.UI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: cetaitquoilecontexterazorwebui
+    ports:
+    - target: 80
   cetaitquoilecontexte.web.services.ui:
     build:
       context: F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte
@@ -7,5 +16,14 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
     image: cetaitquoilecontextewebservicesui
     ports:
-    - 80/tcp
-version: '3.0'
+    - target: 80
+  cetaitquoilecontexte.web.ui:
+    build:
+      context: F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte
+      dockerfile: ../CetaitQuoiLeContexte.Web.UI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: cetaitquoilecontextewebui
+    ports:
+    - target: 80
+version: '3.4'

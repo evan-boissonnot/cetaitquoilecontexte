@@ -1,85 +1,67 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.EntityFrameworkCore;
-using CetaitQuoiLeContexte.Core.DependanceInjection;
-using Boissonnot.Framework.Core.Interfaces.Data;
+using CetaitQuoiLeContexte.Web.UI.Data;
+using CetaitQuoiLeContexte.Web.UI.Services;
 
 namespace CetaitQuoiLeContexte.Web.UI
 {
     public class Startup
     {
-        #region Fields
-        private IDatabaseInitializer _dbInitializer = new Core.Data.DbInitializer();
-        #endregion
-
-        #region Constructors
-        public Startup(IHostingEnvironment env)
+        public Startup(IConfiguration configuration)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
-                .AddEnvironmentVariables();
-            Configuration = builder.Build();
+            Configuration = configuration;
         }
-        #endregion
 
-        #region Properties
-        public IConfigurationRoot Configuration { get; }
-        #endregion
+        public IConfiguration Configuration { get; }
 
-        #region Public methods
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Add framework services.
-            services.AddMvc();
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
 
-            services.AddDbContext<Core.Data.DataDbContext>(options =>
-                                                           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddMvc()
+                .AddRazorPagesOptions(options =>
+                {
+                    // 05/06/2018, A voir pour réactiver par la suite
+                    //options.Conventions.AuthorizeFolder("/Account/Manage");
+                    //options.Conventions.AuthorizePage("/Account/Logout");
+                });
 
-            services.Configure();
+            // Register no-op EmailSender used by account confirmation and password reset during development
+            // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=532713
+            services.AddSingleton<IEmailSender, EmailSender>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env,
-                              ILoggerFactory loggerFactory, IServiceProvider serviceProvider,
-                              Core.Data.DataDbContext context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.UseStatusCodePages();
-
-            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            loggerFactory.AddDebug();
-
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
+                app.UseDeveloperExceptionPage();
+                app.UseDatabaseErrorPage();
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error");
             }
 
             app.UseStaticFiles();
 
-            this._dbInitializer = serviceProvider.GetService<IDatabaseInitializer>();
-            this._dbInitializer.Initialize(context);
+            app.UseAuthentication();
 
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-            });
+            app.UseMvc();
         }
-        #endregion
     }
 }
