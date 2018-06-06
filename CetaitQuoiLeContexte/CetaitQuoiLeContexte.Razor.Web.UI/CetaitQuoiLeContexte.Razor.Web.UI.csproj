@@ -16,9 +16,13 @@
   <ItemGroup>
     <ProjectReference Include="..\Boissonnot.Framework.Core.Business\Boissonnot.Framework.Core.Business.csproj" />
     <ProjectReference Include="..\Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj" />
-    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Business\CetaitQuoiLeContexte.Core.Business.csproj" />
-    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.DependanceInjection\CetaitQuoiLeContexte.Core.DependanceInjection.csproj" />
+    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Business.WebService.Access\CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Business\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Data\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Pages\_ContextPartial.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 </Project>

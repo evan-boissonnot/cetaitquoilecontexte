@@ -109,7 +109,7 @@
           "lib/netstandard1.6/Microsoft.AI.DependencyCollector.dll": {}
         }
       },
-      "Microsoft.AspNet.WebApi.Client/5.2.4": {
+      "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "10.0.1",
@@ -5567,60 +5567,21 @@
           "bin/placeholder/Boissonnot.Framework.Core.Interfaces.dll": {}
         }
       },
-      "CetaitQuoiLeContexte.Core.Business/1.0.0": {
+      "CetaitQuoiLeContexte.Core.Business.WebService.Access/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Boissonnot.Framework.Core.Business": "1.0.0",
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
-          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
-          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
-          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.dll": {}
-        }
-      },
-      "CetaitQuoiLeContexte.Core.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "2.1.0",
-          "Microsoft.EntityFrameworkCore.Design": "2.1.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
-          "Microsoft.Extensions.Configuration": "2.1.0",
-          "Microsoft.Extensions.Configuration.FileExtensions": "2.1.0",
-          "Microsoft.Extensions.Configuration.Json": "2.1.0"
-        },
-        "compile": {
-          "bin/placeholder/CetaitQuoiLeContexte.Core.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CetaitQuoiLeContexte.Core.Data.dll": {}
-        }
-      },
-      "CetaitQuoiLeContexte.Core.DependanceInjection/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Boissonnot.Framework.Core.Business": "1.0.0",
-          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
-          "CetaitQuoiLeContexte.Core.Business": "1.0.0",
-          "CetaitQuoiLeContexte.Core.Data": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+          "Microsoft.AspNet.WebApi.Client": "5.2.6"
         },
         "compile": {
-          "bin/placeholder/CetaitQuoiLeContexte.Core.DependanceInjection.dll": {}
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.WebService.Access.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CetaitQuoiLeContexte.Core.DependanceInjection.dll": {}
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.WebService.Access.dll": {}
         }
       },
       "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
@@ -5741,18 +5702,19 @@
         "microsoft.applicationinsights.dependencycollector.nuspec"
       ]
     },
-    "Microsoft.AspNet.WebApi.Client/5.2.4": {
-      "sha512": "OdBVC2bQWkf9qDd7Mt07ev4SwIdu6VmLBMTWC0D5cOP/HWSXyv/77otwtXVrAo42duNjvXOjzjP5oOI9m1+DTQ==",
+    "Microsoft.AspNet.WebApi.Client/5.2.6": {
+      "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
-      "path": "microsoft.aspnet.webapi.client/5.2.4",
+      "path": "microsoft.aspnet.webapi.client/5.2.6",
       "files": [
+        ".signature.p7s",
         "lib/net45/System.Net.Http.Formatting.dll",
         "lib/net45/System.Net.Http.Formatting.xml",
         "lib/netstandard2.0/System.Net.Http.Formatting.dll",
         "lib/netstandard2.0/System.Net.Http.Formatting.xml",
         "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
         "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
-        "microsoft.aspnet.webapi.client.5.2.4.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
         "microsoft.aspnet.webapi.client.nuspec"
       ]
     },
@@ -14407,20 +14369,10 @@
       "path": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj",
       "msbuildProject": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj"
     },
-    "CetaitQuoiLeContexte.Core.Business/1.0.0": {
+    "CetaitQuoiLeContexte.Core.Business.WebService.Access/1.0.0": {
       "type": "project",
-      "path": "../CetaitQuoiLeContexte.Core.Business/CetaitQuoiLeContexte.Core.Business.csproj",
-      "msbuildProject": "../CetaitQuoiLeContexte.Core.Business/CetaitQuoiLeContexte.Core.Business.csproj"
-    },
-    "CetaitQuoiLeContexte.Core.Data/1.0.0": {
-      "type": "project",
-      "path": "../CetaitQuoiLeContexte.Core.Data/CetaitQuoiLeContexte.Core.Data.csproj",
-      "msbuildProject": "../CetaitQuoiLeContexte.Core.Data/CetaitQuoiLeContexte.Core.Data.csproj"
-    },
-    "CetaitQuoiLeContexte.Core.DependanceInjection/1.0.0": {
-      "type": "project",
-      "path": "../CetaitQuoiLeContexte.Core.DependanceInjection/CetaitQuoiLeContexte.Core.DependanceInjection.csproj",
-      "msbuildProject": "../CetaitQuoiLeContexte.Core.DependanceInjection/CetaitQuoiLeContexte.Core.DependanceInjection.csproj"
+      "path": "../CetaitQuoiLeContexte.Core.Business.WebService.Access/CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.Business.WebService.Access/CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj"
     },
     "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
       "type": "project",
@@ -14437,8 +14389,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Boissonnot.Framework.Core.Business >= 1.0.0",
       "Boissonnot.Framework.Core.Interfaces >= 1.0.0",
-      "CetaitQuoiLeContexte.Core.Business >= 1.0.0",
-      "CetaitQuoiLeContexte.Core.DependanceInjection >= 1.0.0",
+      "CetaitQuoiLeContexte.Core.Business.WebService.Access >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Interfaces.Business >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Interfaces.Data >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.1.0",
@@ -14483,11 +14434,8 @@
             "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
               "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
             },
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj"
-            },
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.DependanceInjection\\CetaitQuoiLeContexte.Core.DependanceInjection.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.DependanceInjection\\CetaitQuoiLeContexte.Core.DependanceInjection.csproj"
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business.WebService.Access\\CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business.WebService.Access\\CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj"
             },
             "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj": {
               "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj"

@@ -11,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using CetaitQuoiLeContexte.Razor.Web.UI.Data;
 using CetaitQuoiLeContexte.Razor.Web.UI.Services;
+using CetaitQuoiLeContexte.Core.Interfaces.Business;
+using CetaitQuoiLeContexte.Core.Business.WebService.Access;
 
 namespace CetaitQuoiLeContexte.Razor.Web.UI
 {
@@ -28,6 +30,8 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddTransient<IContextAsAsyncBusiness, ContextBusiness>();
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()

@@ -1,0 +1,17 @@
+@using CetaitQuoiLeContexte.Core.Interfaces.Data
+@model IContext
+
+<div class="card">
+    <div class="card-body">
+        <a href="#"><h2 class="card-title">@Model.Message</h2></a>
+        @if (!string.IsNullOrEmpty(Model.From))
+        {
+            <p class="card-text">Context : @Model.From</p>
+        }
+
+        <div class="card-footer text-muted">
+            <a href="#" class="btn btn-primary">Partage sur facebook</a>
+            <a href="#" class="btn btn-primary">Copier le lien</a>
+        </div>
+    </div>
+</div>
