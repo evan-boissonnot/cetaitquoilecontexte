@@ -77,7 +77,8 @@ namespace CetaitQuoiLeContexte.Core.Business
                 }
             }
 
-            return query.Cast<IContext>()
+            return query.OrderByDescending(item => item.CreatedDate)
+                        .Cast<IContext>()
                         .ToList();
         }
 

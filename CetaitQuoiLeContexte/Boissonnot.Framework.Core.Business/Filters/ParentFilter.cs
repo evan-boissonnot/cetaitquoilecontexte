@@ -10,6 +10,8 @@ namespace Boissonnot.Framework.Core.Business.Filters
         #region Properties
         public int Id { get; set; }
 
+        public int? TakenNumber { get; set; }
+
         public T Model { get; set; }
         #endregion
     }
