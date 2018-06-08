@@ -55,7 +55,7 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 
             using (var result = await this._client.GetAsync(this.PrepareUrl(filter)))
             {
-                if(result.IsSuccessStatusCode)
+                if (result.IsSuccessStatusCode)
                 {
                     var listResult = await result.Content.ReadAsAsync<List<PocoContext>>();
                     list = listResult.Cast<IContext>().ToList();
@@ -65,13 +65,31 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
             return list;
         }
 
-        public Task<Interfaces.Data.IContext> SelectOne(int id)
+        public async Task<Interfaces.Data.IContext> SelectOne(int id)
         {
-            throw new NotImplementedException();
+            IContext context = null;
+
+            using (var result = await this._client.GetAsync(this.PrepareUrl(id)))
+            {
+                if (result.IsSuccessStatusCode)
+                    context = await result.Content.ReadAsAsync<PocoContext>();
+            }
+
+            return context;
         }
         #endregion
 
         #region Internal methods
+        private string PrepareUrl(int id)
+        {
+            ContextFilter filter = new ContextFilter()
+            {
+                Id = id
+            };
+
+            return this.PrepareUrl(filter);
+        }
+
         private string PrepareUrl(IParentFilter<Interfaces.Data.IContext> filter)
         {
             string url = "api/context?";
@@ -79,7 +97,10 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
             if (filter is ContextFilter realFilter)
             {
                 if (realFilter.TakenNumber.HasValue)
-                    url += $"nb={realFilter.TakenNumber.Value}";
+                    url += $"nb={realFilter.TakenNumber.Value}&";
+
+                if (realFilter.Id > 0)
+                    url += $"id={realFilter.Id}&";
             }
 
             return url;
