@@ -16,3 +16,5 @@ F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Co
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.csprojAssemblyReference.cache
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj.CopyComplete
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.pdb

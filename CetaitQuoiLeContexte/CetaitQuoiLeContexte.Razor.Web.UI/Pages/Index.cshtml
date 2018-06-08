@@ -5,6 +5,8 @@
 }
 
 
+@if (Model.ContextList != null)
+{
 <div class="container">
     @foreach (var item in Model.ContextList)
     {
@@ -15,6 +17,7 @@
     </div>
 
 </div>
+}
 
 
 

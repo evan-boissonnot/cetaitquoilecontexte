@@ -9,6 +9,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Linq;
+using CetaitQuoiLeContexte.Core.Business.Filters;
 
 namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 {
@@ -52,7 +53,7 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
         {
             List<Interfaces.Data.IContext> list = null;
 
-            using (var result = await this._client.GetAsync("api/context"))
+            using (var result = await this._client.GetAsync(this.PrepareUrl(filter)))
             {
                 if(result.IsSuccessStatusCode)
                 {
@@ -67,6 +68,21 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
         public Task<Interfaces.Data.IContext> SelectOne(int id)
         {
             throw new NotImplementedException();
+        }
+        #endregion
+
+        #region Internal methods
+        private string PrepareUrl(IParentFilter<Interfaces.Data.IContext> filter)
+        {
+            string url = "api/context?";
+
+            if (filter is ContextFilter realFilter)
+            {
+                if (realFilter.TakenNumber.HasValue)
+                    url += $"nb={realFilter.TakenNumber.Value}";
+            }
+
+            return url;
         }
         #endregion
     }

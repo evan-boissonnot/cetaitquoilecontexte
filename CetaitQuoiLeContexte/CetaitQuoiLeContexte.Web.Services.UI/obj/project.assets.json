@@ -5291,6 +5291,7 @@
         "dependencies": {
           "Boissonnot.Framework.Core.Business": "1.0.0",
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Business.Filters": "1.0.0",
           "CetaitQuoiLeContexte.Core.Data": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
@@ -5300,6 +5301,20 @@
         },
         "runtime": {
           "bin/placeholder/CetaitQuoiLeContexte.Core.Business.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Business.Filters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.Filters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.Filters.dll": {}
         }
       },
       "CetaitQuoiLeContexte.Core.Data/1.0.0": {
@@ -13675,6 +13690,11 @@
       "type": "project",
       "path": "../CetaitQuoiLeContexte.Core.Business/CetaitQuoiLeContexte.Core.Business.csproj",
       "msbuildProject": "../CetaitQuoiLeContexte.Core.Business/CetaitQuoiLeContexte.Core.Business.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.Business.Filters/1.0.0": {
+      "type": "project",
+      "path": "../../CetaitQuoiLeContexte.Core.Business.Filters/CetaitQuoiLeContexte.Core.Business.Filters.csproj",
+      "msbuildProject": "../../CetaitQuoiLeContexte.Core.Business.Filters/CetaitQuoiLeContexte.Core.Business.Filters.csproj"
     },
     "CetaitQuoiLeContexte.Core.Data/1.0.0": {
       "type": "project",

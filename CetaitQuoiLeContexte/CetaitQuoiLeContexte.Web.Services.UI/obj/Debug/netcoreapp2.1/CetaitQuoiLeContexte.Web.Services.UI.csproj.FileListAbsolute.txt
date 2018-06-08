@@ -26,3 +26,5 @@ F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.We
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Web.Services.UI.csproj.CopyComplete
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Web.Services.UI.dll
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Web.Services.UI.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.pdb

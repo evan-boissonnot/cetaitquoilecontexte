@@ -556,10 +556,23 @@
           "Boissonnot.Framework.Core.Interfaces.dll": {}
         }
       },
+      "CetaitQuoiLeContexte.Core.Business.Filters/1.0.0": {
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Business.Filters.dll": {}
+        },
+        "compile": {
+          "CetaitQuoiLeContexte.Core.Business.Filters.dll": {}
+        }
+      },
       "CetaitQuoiLeContexte.Core.Business.WebService.Access/1.0.0": {
         "dependencies": {
           "Boissonnot.Framework.Core.Business": "1.0.0",
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Business.Filters": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.6"
@@ -4277,6 +4290,11 @@
       "sha512": ""
     },
     "Boissonnot.Framework.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CetaitQuoiLeContexte.Core.Business.Filters/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

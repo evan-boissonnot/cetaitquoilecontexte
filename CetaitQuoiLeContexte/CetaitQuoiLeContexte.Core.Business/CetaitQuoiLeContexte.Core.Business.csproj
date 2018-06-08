@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\CetaitQuoiLeContexte.Core.Business.Filters\CetaitQuoiLeContexte.Core.Business.Filters.csproj" />
     <ProjectReference Include="..\Boissonnot.Framework.Core.Business\Boissonnot.Framework.Core.Business.csproj" />
     <ProjectReference Include="..\Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Data\CetaitQuoiLeContexte.Core.Data.csproj" />

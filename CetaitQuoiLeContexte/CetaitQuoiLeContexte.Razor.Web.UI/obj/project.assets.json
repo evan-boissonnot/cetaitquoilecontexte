@@ -5567,12 +5567,27 @@
           "bin/placeholder/Boissonnot.Framework.Core.Interfaces.dll": {}
         }
       },
+      "CetaitQuoiLeContexte.Core.Business.Filters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.Filters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Business.Filters.dll": {}
+        }
+      },
       "CetaitQuoiLeContexte.Core.Business.WebService.Access/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Boissonnot.Framework.Core.Business": "1.0.0",
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Business.Filters": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.6"
@@ -14368,6 +14383,11 @@
       "type": "project",
       "path": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj",
       "msbuildProject": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.Business.Filters/1.0.0": {
+      "type": "project",
+      "path": "../../CetaitQuoiLeContexte.Core.Business.Filters/CetaitQuoiLeContexte.Core.Business.Filters.csproj",
+      "msbuildProject": "../../CetaitQuoiLeContexte.Core.Business.Filters/CetaitQuoiLeContexte.Core.Business.Filters.csproj"
     },
     "CetaitQuoiLeContexte.Core.Business.WebService.Access/1.0.0": {
       "type": "project",

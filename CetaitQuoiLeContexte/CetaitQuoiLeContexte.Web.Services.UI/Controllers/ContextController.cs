@@ -31,8 +31,12 @@ namespace CetaitQuoiLeContexte.Web.Services.UI.Controllers
         {
             IEnumerable<IContext> list = null;
             string fromQuery = this.HttpContext.Request.Query["from"];
+            string nbItemsQuery = this.HttpContext.Request.Query["nb"];
+            int nbItems = -1;
 
-            list = this._business.SelectAll(new ContextFilter() { From = fromQuery });
+            int.TryParse(nbItemsQuery, out nbItems);
+
+            list = this._business.SelectAll(new ContextFilter() { From = fromQuery, TakenNumber = nbItems });
 
             return list;
         }

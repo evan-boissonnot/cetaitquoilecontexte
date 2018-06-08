@@ -22,6 +22,8 @@ namespace CetaitQuoiLeContexte.Core.Business.Filters
         /// Provenance précisée
         /// </summary>
         public string From { get; set; }
+
+        public int? TakenNumber { get; set; }
         #endregion
     }
 }

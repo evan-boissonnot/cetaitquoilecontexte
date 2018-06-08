@@ -74,6 +74,9 @@ namespace CetaitQuoiLeContexte.Core.Business
 
                     if (!string.IsNullOrEmpty(contextFilter.From))
                         query = query.Where(item => item.From.ToLower() == contextFilter.From.ToLower());
+
+                    if (contextFilter.TakenNumber.HasValue && contextFilter.TakenNumber.Value > 0)
+                        query = query.Take(contextFilter.TakenNumber.Value);
                 }
             }
 
