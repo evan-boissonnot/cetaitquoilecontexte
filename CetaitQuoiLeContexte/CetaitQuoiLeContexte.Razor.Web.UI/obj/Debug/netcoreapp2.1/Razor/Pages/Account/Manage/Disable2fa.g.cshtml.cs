@@ -101,7 +101,7 @@ Write(ViewData["Title"]);
         used in an authenticator app you should ");
             EndContext();
             BeginContext(547, 69, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a0199a68f4c4411a8f8d7d21b81ee384", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14be064e3bb34125aa13562f27b2d8ad", async() => {
                 BeginContext(582, 30, true);
                 WriteLiteral("reset your authenticator keys.");
                 EndContext();
@@ -123,7 +123,7 @@ Write(ViewData["Title"]);
             WriteLiteral("\r\n    </p>\r\n</div>\r\n\r\n<div>\r\n    ");
             EndContext();
             BeginContext(649, 127, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4f50719c98c44b3f822e624fb4d35371", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b4966d0d54514886872b0f7ec1ec39e2", async() => {
                 BeginContext(688, 81, true);
                 WriteLiteral("\r\n        <button class=\"btn btn-danger\" type=\"submit\">Disable 2FA</button>\r\n    ");
                 EndContext();

@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/CetaitQuoiLeContexte.Razor.Web.UI",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:10386/",
       "sslPort": 44340
@@ -17,12 +21,15 @@
       }
     },
     "CetaitQuoiLeContexte.Razor.Web.UI": {
-      "commandName": "Project",
+      "commandName": "IIS",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:10387/"
+    },
+    "CTQLC_IIS": {
+      "commandName": "Executable"
     }
   }
 }

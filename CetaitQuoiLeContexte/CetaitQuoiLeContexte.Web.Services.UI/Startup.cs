@@ -39,7 +39,10 @@ namespace CetaitQuoiLeContexte.Web.Services.UI
                                                            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddSingleton<IDatabaseInitializer, Core.Data.DbInitializer>();
+
+            services.AddTransient<Core.Interfaces.Data.IPerson, Core.Data.Person>();
             services.AddTransient<Core.Interfaces.Data.IContext, Core.Data.Context>();
+
             services.AddTransient<Core.Interfaces.Business.IContextBusiness, Core.Business.ContextBusiness>();
         }
 

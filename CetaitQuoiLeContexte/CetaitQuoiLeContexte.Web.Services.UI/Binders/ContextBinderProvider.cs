@@ -1,5 +1,6 @@
 ﻿using CetaitQuoiLeContexte.Core.Interfaces.Data;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace CetaitQuoiLeContexte.Web.Services.UI.Binders
             IModelBinder binder = null;
 
             if (context.Metadata.ModelType == typeof(IContext))
-                binder = new ContextBinder();
+                binder = new BinderTypeModelBinder(typeof(ContextBinder));
 
             return binder;
         }
