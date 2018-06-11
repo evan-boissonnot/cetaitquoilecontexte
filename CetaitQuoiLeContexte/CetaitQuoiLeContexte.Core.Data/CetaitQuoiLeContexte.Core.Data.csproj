@@ -17,8 +17,9 @@
   <ItemGroup>
         <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0-msbuild3-final" />
     </ItemGroup>
-
+  
   <ItemGroup>
+    <ProjectReference Include="..\Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Data\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj" />
   </ItemGroup>
 

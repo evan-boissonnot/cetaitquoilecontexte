@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq;
 using CetaitQuoiLeContexte.Core.Business.Filters;
+using CetaitQuoiLeContexte.Core.Interfaces;
 
 namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 {
@@ -17,12 +18,14 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
     {
         #region Fields
         private HttpClient _client = new HttpClient();
+        private IMotor _motor = null;
         #endregion
 
         #region Constructors
-        public ContextBusiness()
+        public ContextBusiness(IMotor motor)
         {
-            this._client.BaseAddress = new Uri("http://localhost/CetaitQuoiLeContexte.Web.Services.UI/");
+            this._motor = motor;
+            this._client.BaseAddress = new Uri(this._motor.Settings.ApiUrl);
             this._client.DefaultRequestHeaders.Accept.Clear();
             this._client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }

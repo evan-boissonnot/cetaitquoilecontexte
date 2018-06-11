@@ -1033,8 +1033,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.0"
+          "Microsoft.EntityFrameworkCore": "2.1.0"
         },
         "compile": {
           "bin/placeholder/Boissonnot.Framework.Core.Interfaces.dll": {}
@@ -1061,6 +1060,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.1.0",
           "Microsoft.EntityFrameworkCore.Design": "2.1.0",
@@ -1096,8 +1096,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}

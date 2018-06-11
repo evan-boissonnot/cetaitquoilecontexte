@@ -1020,8 +1020,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.0"
+          "Microsoft.EntityFrameworkCore": "2.1.0"
         },
         "compile": {
           "bin/placeholder/Boissonnot.Framework.Core.Interfaces.dll": {}
@@ -1034,8 +1033,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}
@@ -3755,6 +3753,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Boissonnot.Framework.Core.Interfaces >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Interfaces.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 2.1.0",
       "Microsoft.EntityFrameworkCore.Design >= 2.1.0",
@@ -3796,6 +3795,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
+            },
             "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj": {
               "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj"
             }

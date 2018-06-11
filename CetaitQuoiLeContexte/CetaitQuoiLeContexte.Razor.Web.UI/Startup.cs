@@ -13,6 +13,9 @@ using CetaitQuoiLeContexte.Razor.Web.UI.Data;
 using CetaitQuoiLeContexte.Razor.Web.UI.Services;
 using CetaitQuoiLeContexte.Core.Interfaces.Business;
 using CetaitQuoiLeContexte.Core.Business.WebService.Access;
+using CetaitQuoiLeContexte.Core;
+using Microsoft.Extensions.Options;
+using CetaitQuoiLeContexte.Core.Interfaces;
 
 namespace CetaitQuoiLeContexte.Razor.Web.UI
 {
@@ -55,11 +58,15 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI
             services.AddSingleton<IEmailSender, EmailSender>();
 
             services.Configure<Data.AppSettings>(this.Configuration.GetSection("AppSettings"));
+            services.AddSingleton<IMotor>(Motor.Instance);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, 
+                              IOptions<Data.AppSettings> settings, IServiceProvider provider)
         {
+            Motor.Instance.Settings = settings.Value;
+
             if (env.IsDevelopment())
             {
                 app.UseBrowserLink();

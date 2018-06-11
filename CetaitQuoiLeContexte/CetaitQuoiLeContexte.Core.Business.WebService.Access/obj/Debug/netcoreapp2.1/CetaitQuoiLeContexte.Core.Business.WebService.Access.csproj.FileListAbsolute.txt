@@ -38,3 +38,7 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeCont
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj.CopyComplete
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.WebService.Access.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.WebService.Access\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.pdb

@@ -5567,14 +5567,29 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.0"
+          "Microsoft.EntityFrameworkCore": "2.1.0"
         },
         "compile": {
           "bin/placeholder/Boissonnot.Framework.Core.Interfaces.dll": {}
         },
         "runtime": {
           "bin/placeholder/Boissonnot.Framework.Core.Interfaces.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.dll": {}
         }
       },
       "CetaitQuoiLeContexte.Core.Business.Filters/1.0.0": {
@@ -5597,9 +5612,9 @@
         "dependencies": {
           "Boissonnot.Framework.Core.Business": "1.0.0",
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
+          "CetaitQuoiLeContexte.Core": "1.0.0",
           "CetaitQuoiLeContexte.Core.Business.Filters": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Business": "1.0.0",
-          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.6"
         },
         "compile": {
@@ -5607,6 +5622,19 @@
         },
         "runtime": {
           "bin/placeholder/CetaitQuoiLeContexte.Core.Business.WebService.Access.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.dll": {}
         }
       },
       "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
@@ -5628,8 +5656,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Boissonnot.Framework.Core.Interfaces": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+          "Boissonnot.Framework.Core.Interfaces": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}
@@ -14399,6 +14426,11 @@
       "path": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj",
       "msbuildProject": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj"
     },
+    "CetaitQuoiLeContexte.Core/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core/CetaitQuoiLeContexte.Core.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core/CetaitQuoiLeContexte.Core.csproj"
+    },
     "CetaitQuoiLeContexte.Core.Business.Filters/1.0.0": {
       "type": "project",
       "path": "../../CetaitQuoiLeContexte.Core.Business.Filters/CetaitQuoiLeContexte.Core.Business.Filters.csproj",
@@ -14408,6 +14440,11 @@
       "type": "project",
       "path": "../CetaitQuoiLeContexte.Core.Business.WebService.Access/CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj",
       "msbuildProject": "../CetaitQuoiLeContexte.Core.Business.WebService.Access/CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.Interfaces/CetaitQuoiLeContexte.Core.Interfaces.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.Interfaces/CetaitQuoiLeContexte.Core.Interfaces.csproj"
     },
     "CetaitQuoiLeContexte.Core.Interfaces.Business/1.0.0": {
       "type": "project",
@@ -14425,9 +14462,9 @@
       "Boissonnot.Framework.Core.Business >= 1.0.0",
       "Boissonnot.Framework.Core.Extensions >= 1.0.0",
       "Boissonnot.Framework.Core.Interfaces >= 1.0.0",
+      "CetaitQuoiLeContexte.Core >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Business.WebService.Access >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Interfaces.Business >= 1.0.0",
-      "CetaitQuoiLeContexte.Core.Interfaces.Data >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.0",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -14479,8 +14516,8 @@
             "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj": {
               "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj"
             },
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj"
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core\\CetaitQuoiLeContexte.Core.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core\\CetaitQuoiLeContexte.Core.csproj"
             }
           }
         }
