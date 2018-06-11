@@ -15,6 +15,10 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 {
     public class ContextBusiness : IContextAsAsyncBusiness
     {
+        #region Constants
+        private const string BASE_URL = "api/context";
+        #endregion
+
         #region Fields
         private HttpClient _client = new HttpClient();
         private IMotor _motor = null;
@@ -41,9 +45,13 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
             throw new NotImplementedException();
         }
 
-        public Task Save(Interfaces.Data.IContext item)
+        public async Task Save(Interfaces.Data.IContext item)
         {
-            throw new NotImplementedException();
+            if (item == null)
+                throw new ArgumentNullException("item");
+
+            if (item.Id <= 0)
+                await this.Insert(item);
         }
 
         public Task<List<Interfaces.Data.IContext>> SelectAll()
@@ -101,6 +109,17 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
         #endregion
 
         #region Internal methods
+        private async Task Insert(IContext context)
+        {
+            using (var result = await this._client.PostAsJsonAsync(BASE_URL, context))
+            {
+                if (result.IsSuccessStatusCode)
+                {
+
+                }
+            }
+        }
+
         private string PrepareUrl(string title)
         {
             ContextFilter filter = new ContextFilter()
@@ -123,7 +142,7 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 
         private string PrepareUrl(IParentFilter<Interfaces.Data.IContext> filter)
         {
-            string url = "api/context?";
+            string url = $"{BASE_URL}?";
 
             if (filter is ContextFilter realFilter)
             {

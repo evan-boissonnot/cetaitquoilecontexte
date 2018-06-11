@@ -11,14 +11,15 @@ namespace CetaitQuoiLeContexte.Core.Interfaces.Data
         /// Prénom de la personne
         /// </summary>
         [Display(Name = "Pseudo")]
-        [Required]
+        [Required(ErrorMessage = "Le pseudo est obligatoire", AllowEmptyStrings = false)]
         string Name { get; set; }
 
         /// <summary>
         /// Email de l'utilisateur
         /// </summary>
         [Display(Name = "Email")]
-        [Required]
+        [Required(ErrorMessage = "L'email est obligatoire", AllowEmptyStrings = false)]
+        [EmailAddress(ErrorMessage = "L'email n'a pas le bon format")]
         string Email { get; set; }
     }
 }

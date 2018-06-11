@@ -10,7 +10,6 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
     public class PocoPerson : IPerson
     {
         #region Properties
-        [Display(Name = "Surnom")]
         public string Name {get; set;}
 
         public int Id {get; set;}

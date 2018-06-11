@@ -10,8 +10,6 @@ namespace CetaitQuoiLeContexte.Core.Interfaces.Data
         /// <summary>
         /// Contenu du context
         /// </summary>
-        [Display(Name = "Phrase")]
-        [Required]
         string Message { get; set; }
 
         /// <summary>
@@ -32,7 +30,6 @@ namespace CetaitQuoiLeContexte.Core.Interfaces.Data
         /// <summary>
         /// Provenance
         /// </summary>
-        [Display(Name = "Contexte")]
         string From { get; set; }
 
         /// <summary>

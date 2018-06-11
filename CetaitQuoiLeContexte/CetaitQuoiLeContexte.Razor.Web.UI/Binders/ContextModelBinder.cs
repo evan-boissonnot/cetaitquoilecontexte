@@ -24,24 +24,26 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Binders
         public Task BindModelAsync(ModelBindingContext bindingContext)
         {
             IContext context = null;
-            Task currentTask = null;
+            Task currentTask = Task.CompletedTask;
             ValueProviderResult messageResult = bindingContext.ValueProvider.GetValue("Item.Message");
             ValueProviderResult fromResult = bindingContext.ValueProvider.GetValue("Item.From");
             ValueProviderResult nameResult = bindingContext.ValueProvider.GetValue("Item.Author.Name");
             ValueProviderResult emailResult = bindingContext.ValueProvider.GetValue("Item.Author.Email");
 
-            if (messageResult == ValueProviderResult.None)
-                currentTask = Task.CompletedTask;
+            if (messageResult != ValueProviderResult.None &&
+                nameResult != ValueProviderResult.None &&
+                emailResult != ValueProviderResult.None)
+            {
+                context = (IContext)this._provider.GetService(typeof(IContext));
+                context.Author = (IPerson)this._provider.GetService(typeof(IPerson));
 
-            context = (IContext) this._provider.GetService(typeof(IContext));
-            context.Author = (IPerson)this._provider.GetService(typeof(IPerson));
+                context.Message = messageResult.FirstValue;
+                context.From = fromResult.FirstValue;
+                context.Author.Email = emailResult.FirstValue;
+                context.Author.Name = nameResult.FirstValue;
 
-            context.Message = messageResult.FirstValue;
-            context.From = fromResult.FirstValue;
-            context.Author.Email = emailResult.FirstValue;
-            context.Author.Name = nameResult.FirstValue;
-
-            bindingContext.Result = ModelBindingResult.Success(context);
+                bindingContext.Result = ModelBindingResult.Success(context);
+            }
 
             return currentTask;
         }
