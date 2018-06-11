@@ -22,6 +22,9 @@ F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Co
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.dll
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.pdb
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\design-config.json
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.deps.json
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.pdb
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.dll
@@ -41,6 +44,3 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeCont
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.csproj.CopyComplete
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.pdb
-F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.deps.json
-F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.dll
-F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.pdb
