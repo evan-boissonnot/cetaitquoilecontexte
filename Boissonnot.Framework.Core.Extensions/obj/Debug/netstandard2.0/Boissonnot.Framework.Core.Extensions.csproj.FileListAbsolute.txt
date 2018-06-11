@@ -15,3 +15,4 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\Boissonnot.Framework.Core.Extensions\
 F:\Works\Perso\CetaitQuoiLeContexte.Github\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.AssemblyInfo.cs
 F:\Works\Perso\CetaitQuoiLeContexte.Github\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.csprojAssemblyReference.cache

@@ -11,7 +11,7 @@ namespace CetaitQuoiLeContexte.Core.Data
         #region Public methods
         public void Initialize(DbContext context)
         {
-            context.Database.EnsureCreated();
+            context.Database.Migrate();
         }
         #endregion
     }
