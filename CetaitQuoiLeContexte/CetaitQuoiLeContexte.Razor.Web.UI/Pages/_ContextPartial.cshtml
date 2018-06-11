@@ -4,7 +4,6 @@
 
 <div class="card">
     <div class="card-body">
-        <a asp-page="/Context">test</a>
             <a asp-page="/Context" asp-route-title="@Model.HtmlTitle"><h2 class="card-title">@Model.Message</h2></a>
             @if (!string.IsNullOrEmpty(Model.From))
             {
