@@ -6,7 +6,7 @@ namespace CetaitQuoiLeContexte.Core.Data.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>("From", "Context", maxLength: 255);
+            migrationBuilder.AddColumn<string>("From", "Context", defaultValue: string.Empty, maxLength: 255);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

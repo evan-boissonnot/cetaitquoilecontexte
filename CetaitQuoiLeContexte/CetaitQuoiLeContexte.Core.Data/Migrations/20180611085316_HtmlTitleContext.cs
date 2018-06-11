@@ -9,7 +9,8 @@ namespace CetaitQuoiLeContexte.Core.Data.Migrations
             migrationBuilder.AddColumn<string>(
                 name: "HtmlTitle",
                 table: "Context",
-                nullable: true);
+                defaultValue: string.Empty,
+                nullable: false);
         }
         protected override void Down(MigrationBuilder migrationBuilder)
         {
