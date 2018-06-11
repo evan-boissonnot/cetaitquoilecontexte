@@ -16,6 +16,8 @@ using CetaitQuoiLeContexte.Core.Business.WebService.Access;
 using CetaitQuoiLeContexte.Core;
 using Microsoft.Extensions.Options;
 using CetaitQuoiLeContexte.Core.Interfaces;
+using CetaitQuoiLeContexte.Razor.Web.UI.Binders;
+using CetaitQuoiLeContexte.Core.Interfaces.Data;
 
 namespace CetaitQuoiLeContexte.Razor.Web.UI
 {
@@ -36,19 +38,26 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddTransient<IContext, PocoContext>();
+            services.AddTransient<IPerson, PocoPerson>();
             services.AddTransient<IContextAsAsyncBusiness, ContextBusiness>();
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvc()
+            services
+                .AddMvc(options =>
+                {
+                    options.ModelBinderProviders.Insert(0, new ContextModelBinderProvider());
+                })
                 .AddRazorPagesOptions(options =>
                 {
                     options.Conventions.AuthorizeFolder("/Account/Manage");
                     options.Conventions.AuthorizePage("/Account/Logout");
 
                     options.Conventions.AddPageRoute("/Context", "contexte/{title}");
+                    options.Conventions.AddPageRoute("/AddContext", "contexte/nouveau");
 
                     options.Conventions.AddPageRoute("/index", "{*url}");
                 });

@@ -1,0 +1,44 @@
+﻿@page
+@model CetaitQuoiLeContexte.Razor.Web.UI.Pages.AddContextModel
+@{
+    ViewData["Title"] = "Ajoute un nouveau contexte !";
+}
+
+<h1>Propose une phrase et son contexte !</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div class="form-group">
+                    <label asp-for="Item.Message" class="control-label"></label>
+                    <input asp-for="Item.Message" class="form-control" />
+                    <span asp-validation-for="Item.Message" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Item.From" class="control-label"></label>
+                    <input asp-for="Item.From" class="form-control" />
+                    <span asp-validation-for="Item.From" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Item.Author.Name" class="control-label"></label>
+                    <input asp-for="Item.Author.Name" class="form-control" />
+                    <span asp-validation-for="Item.Author.Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Item.Author.Email" class="control-label"></label>
+                    <input asp-for="Item.Author.Email" class="form-control" />
+                    <span asp-validation-for="Item.Author.Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Proposer une nouvelle phrase" class="btn btn-default" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

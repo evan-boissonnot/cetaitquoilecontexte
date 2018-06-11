@@ -26,18 +26,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-page="/Index" class="navbar-brand">@ViewData["Title"]</a>
+                <a asp-page="/Index" class="navbar-brand">C'était quoi le contexte, déjà ?</a>
             </div>
             <div class="navbar-collapse collapse">
                 @*
-            11/06/2018 : à réactiver quand on affichera les autres options du menu
-            <ul class="nav navbar-nav">
-            <li><a asp-page="/Index">Home</a></li>
-            <li><a asp-page="/About">About</a></li>
-            <li><a asp-page="/Contact">Contact</a></li>
-        </ul>
-            @await Html.PartialAsync("_LoginPartial")
+                        11/06/2018 : à réactiver quand on affichera les autres options du menu
+                        <ul class="nav navbar-nav">
+                        <li><a asp-page="/Index">Home</a></li>
+                        <li><a asp-page="/About">About</a></li>
+                        <li><a asp-page="/Contact">Contact</a></li>
+                    </ul>
+                        @await Html.PartialAsync("_LoginPartial")
                 *@
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a asp-page="/AddContext">Propose une phrase contextuelle !</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>

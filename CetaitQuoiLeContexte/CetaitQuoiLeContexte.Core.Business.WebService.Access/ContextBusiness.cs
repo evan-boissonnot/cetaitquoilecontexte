@@ -1,7 +1,6 @@
 ﻿using Boissonnot.Framework.Core.Interfaces.Filters;
 using CetaitQuoiLeContexte.Core.Interfaces.Business;
 using CetaitQuoiLeContexte.Core.Interfaces.Data;
-using CetaitQuoiLeContexte.Razor.Web.UI.Data;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
