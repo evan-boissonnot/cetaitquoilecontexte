@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Boissonnot.Framework.Core.Interfaces.Filters;
+using Boissonnot.Framework.Core.Extensions;
 using CetaitQuoiLeContexte.Core.Interfaces.Data;
 using System.Linq;
 using CetaitQuoiLeContexte.Core.Business.Filters;
@@ -34,17 +35,29 @@ namespace CetaitQuoiLeContexte.Core.Business
 
         public void Save(IContext item)
         {
+            IPerson currentPerson = null;
+
+            if (item == null)
+                throw new ArgumentNullException("item");
+
+            if (item.Author == null)
+                throw new ArgumentNullException("item.Author");
+
+            currentPerson = this._context.Persons.FirstOrDefault(data => data.Email.ToLower() == item.Author.Email.ToLower());
+            if (currentPerson == null)
+                currentPerson = item.Author;
+
             if(item.Id == 0)
             {
                 Data.Context data = new Data.Context()
                 {
                     CreatedDate = DateTime.Now,
                     Message = item.Message,
-                    Author = new Data.Person()
-                    {
-                        Name = item.Author.Name
-                    }
+                    From = item.From,
+                    HtmlTitle = item.Message ?? string.Empty,
+                    Author = (Data.Person) currentPerson
                 };
+                data.HtmlTitle = data.HtmlTitle.ToUrl();
 
                 this._context.Contexts.Add(data);
                 this._context.SaveChanges();

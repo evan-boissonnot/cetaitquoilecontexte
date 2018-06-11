@@ -1029,6 +1029,16 @@
           "bin/placeholder/Boissonnot.Framework.Core.Business.dll": {}
         }
       },
+      "Boissonnot.Framework.Core.Extensions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Boissonnot.Framework.Core.Extensions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Boissonnot.Framework.Core.Extensions.dll": {}
+        }
+      },
       "Boissonnot.Framework.Core.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -3808,6 +3818,11 @@
       "path": "../Boissonnot.Framework.Core.Business/Boissonnot.Framework.Core.Business.csproj",
       "msbuildProject": "../Boissonnot.Framework.Core.Business/Boissonnot.Framework.Core.Business.csproj"
     },
+    "Boissonnot.Framework.Core.Extensions/1.0.0": {
+      "type": "project",
+      "path": "../../Boissonnot.Framework.Core.Extensions/Boissonnot.Framework.Core.Extensions.csproj",
+      "msbuildProject": "../../Boissonnot.Framework.Core.Extensions/Boissonnot.Framework.Core.Extensions.csproj"
+    },
     "Boissonnot.Framework.Core.Interfaces/1.0.0": {
       "type": "project",
       "path": "../Boissonnot.Framework.Core.Interfaces/Boissonnot.Framework.Core.Interfaces.csproj",
@@ -3837,6 +3852,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Boissonnot.Framework.Core.Business >= 1.0.0",
+      "Boissonnot.Framework.Core.Extensions >= 1.0.0",
       "Boissonnot.Framework.Core.Interfaces >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Business.Filters >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Data >= 1.0.0",
@@ -3875,6 +3891,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\Boissonnot.Framework.Core.Extensions\\Boissonnot.Framework.Core.Extensions.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\Boissonnot.Framework.Core.Extensions\\Boissonnot.Framework.Core.Extensions.csproj"
+            },
             "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte.Core.Business.Filters\\CetaitQuoiLeContexte.Core.Business.Filters.csproj": {
               "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte.Core.Business.Filters\\CetaitQuoiLeContexte.Core.Business.Filters.csproj"
             },

@@ -9,6 +9,7 @@
       "CetaitQuoiLeContexte.Core.Business/1.0.0": {
         "dependencies": {
           "Boissonnot.Framework.Core.Business": "1.0.0",
+          "Boissonnot.Framework.Core.Extensions": "1.0.0",
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
           "CetaitQuoiLeContexte.Core.Business.Filters": "1.0.0",
           "CetaitQuoiLeContexte.Core.Data": "1.0.0",
@@ -594,6 +595,11 @@
           "Boissonnot.Framework.Core.Business.dll": {}
         }
       },
+      "Boissonnot.Framework.Core.Extensions/1.0.0": {
+        "runtime": {
+          "Boissonnot.Framework.Core.Extensions.dll": {}
+        }
+      },
       "Boissonnot.Framework.Core.Interfaces/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.0"
@@ -1088,6 +1094,11 @@
       "hashPath": "system.threading.tasks.4.0.11.nupkg.sha512"
     },
     "Boissonnot.Framework.Core.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Boissonnot.Framework.Core.Extensions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

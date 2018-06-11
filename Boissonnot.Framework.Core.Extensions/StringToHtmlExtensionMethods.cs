@@ -21,7 +21,7 @@ namespace Boissonnot.Framework.Core.Extensions
             var trueLength = 0;
             char c;
 
-            for (int i = 0; i < maxLength; i++)
+            for (int i = 0; i < stringLength && i < maxLength; i++)
             {
                 c = normalizedString[i];
                 switch (CharUnicodeInfo.GetUnicodeCategory(c))

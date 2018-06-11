@@ -30,7 +30,7 @@ namespace CetaitQuoiLeContexte.Web.Services.UI.Binders
             using (StreamReader reader = new StreamReader(bindingContext.HttpContext.Request.Body))
             {
                 string content = reader.ReadToEnd();
-                context = Newtonsoft.Json.JsonConvert.DeserializeObject<Context>(content);
+                context = Newtonsoft.Json.JsonConvert.DeserializeObject<Context>(content, new Converters.PersonJsonConverter());
             }
 
             bindingContext.Result = ModelBindingResult.Success(context);

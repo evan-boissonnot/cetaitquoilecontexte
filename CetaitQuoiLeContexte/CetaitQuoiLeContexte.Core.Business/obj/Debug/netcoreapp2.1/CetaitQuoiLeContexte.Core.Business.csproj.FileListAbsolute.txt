@@ -44,3 +44,5 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeCont
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.csproj.CopyComplete
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Extensions.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Extensions.pdb
