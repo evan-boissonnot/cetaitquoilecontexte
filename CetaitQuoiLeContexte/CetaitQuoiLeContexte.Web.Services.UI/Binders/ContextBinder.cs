@@ -1,7 +1,9 @@
-﻿using CetaitQuoiLeContexte.Core.Interfaces.Data;
+﻿using CetaitQuoiLeContexte.Core.Data;
+using CetaitQuoiLeContexte.Core.Interfaces.Data;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -23,9 +25,13 @@ namespace CetaitQuoiLeContexte.Web.Services.UI.Binders
         #region Public methods
         public Task BindModelAsync(ModelBindingContext bindingContext)
         {
-            IContext context = (IContext)this._provider.GetService(typeof(IContext));
+            IContext context = null;
 
-            
+            using (StreamReader reader = new StreamReader(bindingContext.HttpContext.Request.Body))
+            {
+                string content = reader.ReadToEnd();
+                context = Newtonsoft.Json.JsonConvert.DeserializeObject<Context>(content);
+            }
 
             bindingContext.Result = ModelBindingResult.Success(context);
 
