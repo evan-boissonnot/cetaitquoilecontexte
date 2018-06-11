@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CetaitQuoiLeContexte.Core.Data
 {
-    public class Context : Interfaces.Data.IContext
+    public partial class Context : Interfaces.Data.IContext
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -21,6 +21,8 @@ namespace CetaitQuoiLeContexte.Core.Data
         public int AuthorId { get; set; }
 
         public string From { get; set; }
+
+        public string HtmlTitle { get; set; }
 
         [Required]
         public DateTime CreatedDate { get; set; }

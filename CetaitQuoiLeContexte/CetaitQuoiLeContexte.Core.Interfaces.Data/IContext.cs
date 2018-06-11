@@ -30,5 +30,10 @@ namespace CetaitQuoiLeContexte.Core.Interfaces.Data
         /// Provenance
         /// </summary>
         string From { get; set; }
+
+        /// <summary>
+        /// Titre formatté pour passer en paramètre get, en url
+        /// </summary>
+        string HtmlTitle { get; set; }
     }
 }

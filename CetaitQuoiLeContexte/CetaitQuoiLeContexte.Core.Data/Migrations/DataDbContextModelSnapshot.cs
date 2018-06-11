@@ -29,6 +29,10 @@ namespace CetaitQuoiLeContexte.Core.Data.Migrations
 
                     b.Property<DateTime>("CreatedDate");
 
+                    b.Property<string>("From");
+
+                    b.Property<string>("HtmlTitle");
+
                     b.Property<string>("Message")
                         .IsRequired();
 

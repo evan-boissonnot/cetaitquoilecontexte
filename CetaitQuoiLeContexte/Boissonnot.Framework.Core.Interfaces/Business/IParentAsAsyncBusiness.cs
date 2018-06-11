@@ -28,6 +28,13 @@ namespace Boissonnot.Framework.Core.Interfaces.Business
         Task<T> SelectOne(int id);
 
         /// <summary>
+        /// Sélectionne un élément par son titre, label (formatté)
+        /// </summary>
+        /// <param name="title">ID de l'élément</param>
+        /// <returns></returns>
+        Task<T> SelectOne(string title);
+
+        /// <summary>
         /// Enregistre un élément (ajout ou modification)
         /// </summary>
         /// <param name="item">Item à ajouter</param>

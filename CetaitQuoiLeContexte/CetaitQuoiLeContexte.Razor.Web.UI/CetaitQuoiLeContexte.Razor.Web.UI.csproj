@@ -14,6 +14,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Boissonnot.Framework.Core.Extensions\Boissonnot.Framework.Core.Extensions.csproj" />
     <ProjectReference Include="..\Boissonnot.Framework.Core.Business\Boissonnot.Framework.Core.Business.csproj" />
     <ProjectReference Include="..\Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Business.WebService.Access\CetaitQuoiLeContexte.Core.Business.WebService.Access.csproj" />
@@ -24,5 +25,8 @@
     <Content Update="Pages\_ContextPartial.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TagHelpers\" />
   </ItemGroup>
 </Project>

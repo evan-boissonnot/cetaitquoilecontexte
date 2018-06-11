@@ -77,6 +77,11 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 
             return context;
         }
+
+        public async Task<Interfaces.Data.IContext> SelectOne(string title)
+        {
+
+        }
         #endregion
 
         #region Internal methods

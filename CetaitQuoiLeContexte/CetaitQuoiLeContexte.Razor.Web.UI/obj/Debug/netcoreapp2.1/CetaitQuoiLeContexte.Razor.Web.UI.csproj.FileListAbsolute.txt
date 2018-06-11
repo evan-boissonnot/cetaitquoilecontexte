@@ -71,3 +71,6 @@ F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Ra
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\Razor\Pages\_ContextPartial.g.cshtml.cs
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.dll
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.pdb
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\Razor\Pages\Context.g.cshtml.cs
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Extensions.dll
+F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Extensions.pdb
