@@ -13731,11 +13731,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Web.Services.UI\\CetaitQuoiLeContexte.Web.Services.UI.csproj",
+      "projectUniqueName": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Web.Services.UI\\CetaitQuoiLeContexte.Web.Services.UI.csproj",
       "projectName": "CetaitQuoiLeContexte.Web.Services.UI",
-      "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Web.Services.UI\\CetaitQuoiLeContexte.Web.Services.UI.csproj",
+      "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Web.Services.UI\\CetaitQuoiLeContexte.Web.Services.UI.csproj",
       "packagesPath": "C:\\Users\\Evan\\.nuget\\packages\\",
-      "outputPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Web.Services.UI\\obj\\",
+      "outputPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Web.Services.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13754,23 +13754,23 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Business\\Boissonnot.Framework.Core.Business.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Business\\Boissonnot.Framework.Core.Business.csproj"
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Business\\Boissonnot.Framework.Core.Business.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Business\\Boissonnot.Framework.Core.Business.csproj"
             },
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
             },
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj"
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Business\\CetaitQuoiLeContexte.Core.Business.csproj"
             },
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Data\\CetaitQuoiLeContexte.Core.Data.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Data\\CetaitQuoiLeContexte.Core.Data.csproj"
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Data\\CetaitQuoiLeContexte.Core.Data.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Data\\CetaitQuoiLeContexte.Core.Data.csproj"
             },
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj"
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj"
             },
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj"
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj"
             }
           }
         }

@@ -3571,11 +3571,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj",
+      "projectUniqueName": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj",
       "projectName": "Boissonnot.Framework.Core.Interfaces",
-      "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj",
+      "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj",
       "packagesPath": "C:\\Users\\Evan\\.nuget\\packages\\",
-      "outputPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\obj\\",
+      "outputPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

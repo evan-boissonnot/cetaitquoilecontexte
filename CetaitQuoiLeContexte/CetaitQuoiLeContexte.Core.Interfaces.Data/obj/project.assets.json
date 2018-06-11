@@ -3590,11 +3590,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj",
+      "projectUniqueName": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj",
       "projectName": "CetaitQuoiLeContexte.Core.Interfaces.Data",
-      "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj",
+      "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj",
       "packagesPath": "C:\\Users\\Evan\\.nuget\\packages\\",
-      "outputPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\obj\\",
+      "outputPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3613,8 +3613,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
-              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Interfaces\\Boissonnot.Framework.Core.Interfaces.csproj"
             }
           }
         }

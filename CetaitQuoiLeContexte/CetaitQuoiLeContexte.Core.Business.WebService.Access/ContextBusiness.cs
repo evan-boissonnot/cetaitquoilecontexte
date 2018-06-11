@@ -80,11 +80,35 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 
         public async Task<Interfaces.Data.IContext> SelectOne(string title)
         {
+            IContext context = null;
 
+            using (var result = await this._client.GetAsync(this.PrepareUrl(title)))
+            {
+                if (result.IsSuccessStatusCode)
+                {
+                    var listResult = await result.Content.ReadAsAsync<List<PocoContext>>();
+                    var list = listResult.Cast<IContext>().ToList();
+
+                    if (list.Count > 0)
+                        context = list[0];
+                }
+            }
+
+            return context;
         }
         #endregion
 
         #region Internal methods
+        private string PrepareUrl(string title)
+        {
+            ContextFilter filter = new ContextFilter()
+            {
+                Title = title
+            };
+
+            return this.PrepareUrl(filter);
+        }
+
         private string PrepareUrl(int id)
         {
             ContextFilter filter = new ContextFilter()
@@ -106,6 +130,9 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 
                 if (realFilter.Id > 0)
                     url += $"id={realFilter.Id}&";
+
+                if (!string.IsNullOrEmpty(realFilter.Title))
+                    url += $"title={realFilter.Title}&";
             }
 
             return url;

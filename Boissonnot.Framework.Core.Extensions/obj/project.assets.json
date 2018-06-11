@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Extensions\\Boissonnot.Framework.Core.Extensions.csproj",
+      "projectUniqueName": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\Boissonnot.Framework.Core.Extensions\\Boissonnot.Framework.Core.Extensions.csproj",
       "projectName": "Boissonnot.Framework.Core.Extensions",
-      "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Extensions\\Boissonnot.Framework.Core.Extensions.csproj",
+      "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\Boissonnot.Framework.Core.Extensions\\Boissonnot.Framework.Core.Extensions.csproj",
       "packagesPath": "C:\\Users\\Evan\\.nuget\\packages\\",
-      "outputPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte\\Boissonnot.Framework.Core.Extensions\\obj\\",
+      "outputPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\Boissonnot.Framework.Core.Extensions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

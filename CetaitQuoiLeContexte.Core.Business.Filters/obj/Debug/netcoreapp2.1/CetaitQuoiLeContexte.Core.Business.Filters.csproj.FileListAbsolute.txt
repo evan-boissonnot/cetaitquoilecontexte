@@ -12,3 +12,17 @@ F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.Filters\o
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.csproj.CopyComplete
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.dll
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.deps.json
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Data.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.Data.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.csprojAssemblyReference.cache
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.csproj.CoreCompileInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.AssemblyInfoInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.AssemblyInfo.cs
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.csproj.CopyComplete
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte.Core.Business.Filters\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Business.Filters.pdb

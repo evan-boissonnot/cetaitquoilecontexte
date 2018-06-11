@@ -10,3 +10,15 @@ F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Co
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.csproj.CopyComplete
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.dll
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.deps.json
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.csprojAssemblyReference.cache
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.csproj.CoreCompileInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.AssemblyInfoInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.AssemblyInfo.cs
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.csproj.CopyComplete
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Business\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Business.pdb

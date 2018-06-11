@@ -75,6 +75,10 @@ namespace CetaitQuoiLeContexte.Core.Business
                     if (!string.IsNullOrEmpty(contextFilter.From))
                         query = query.Where(item => item.From.ToLower() == contextFilter.From.ToLower());
 
+                    if (!string.IsNullOrEmpty(contextFilter.Title))
+                        query = query.Where(item => item.HtmlTitle.ToLower() == contextFilter.Title.ToLower() ||
+                                                    item.Message.ToLower() == contextFilter.Title.ToLower());
+
                     if (contextFilter.TakenNumber.HasValue && contextFilter.TakenNumber.Value > 0)
                         query = query.Take(contextFilter.TakenNumber.Value);
                 }

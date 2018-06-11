@@ -1,1 +1,2 @@
 F:\Works\Perso\CetaitQuoiLeContexte\CetaitQuoiLeContexte\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

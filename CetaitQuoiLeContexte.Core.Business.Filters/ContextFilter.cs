@@ -24,6 +24,11 @@ namespace CetaitQuoiLeContexte.Core.Business.Filters
         public string From { get; set; }
 
         public int? TakenNumber { get; set; }
+
+        /// <summary>
+        /// Titre formatté
+        /// </summary>
+        public string Title { get; set; }
         #endregion
     }
 }

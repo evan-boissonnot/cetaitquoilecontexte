@@ -4,6 +4,15 @@
     ViewData["Title"] = this.Model.Title + " - C'était quoi le contexte, déjà ?";
 }
 
-<h2>@Model.Title</h2>
+<div class="row">
+    <h1>@Model.Current.Message</h1>
+</div>
 
+@if (!string.IsNullOrEmpty(Model.Current.From))
+{
+    <div class="row">
+        <div class="col-lg-2">Contexte repéré :</div>
+        <div class="col-lg-3">@Model.Current.From</div>
+    </div>
+}
 
