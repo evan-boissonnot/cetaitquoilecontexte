@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using System.Linq;
 using CetaitQuoiLeContexte.Core.Business.Filters;
 using CetaitQuoiLeContexte.Core.Interfaces;
+using Boissonnot.Framework.Core.Interfaces.Business;
+using Boissonnot.Framework.Core.Interfaces.Results;
 
 namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 {
@@ -54,25 +56,27 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
                 await this.Insert(item);
         }
 
-        public Task<List<Interfaces.Data.IContext>> SelectAll()
+        public Task<IResult<List<IContext>>> SelectAll()
         {
             return this.SelectAll(null);
         }
 
-        public async Task<List<Interfaces.Data.IContext>> SelectAll(IParentFilter<Interfaces.Data.IContext> filter)
+        public async Task<IResult<List<IContext>>> SelectAll(IParentFilter<Interfaces.Data.IContext> filter)
         {
-            List<Interfaces.Data.IContext> list = null;
+            IResult<List<PocoContext>> itemResult = null;
 
             using (var result = await this._client.GetAsync(this.PrepareUrl(filter)))
             {
                 if (result.IsSuccessStatusCode)
-                {
-                    var listResult = await result.Content.ReadAsAsync<List<PocoContext>>();
-                    list = listResult.Cast<IContext>().ToList();
-                }
+                    itemResult = await result.Content.ReadAsAsync<Models.ListPocoContextResult>();
             }
 
-            return list;
+            return new Models.Temps.ListContextResult()
+            {
+                FullResultNumber = itemResult.FullResultNumber,
+                Item = itemResult.Item.Cast<IContext>().ToList(),
+                HasNextItems = itemResult.HasNextItems
+            };
         }
 
         public async Task<Interfaces.Data.IContext> SelectOne(int id)
@@ -111,13 +115,7 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
         #region Internal methods
         private async Task Insert(IContext context)
         {
-            using (var result = await this._client.PostAsJsonAsync(BASE_URL, context))
-            {
-                if (result.IsSuccessStatusCode)
-                {
-
-                }
-            }
+            using (var result = await this._client.PostAsJsonAsync(BASE_URL, context)) {}
         }
 
         private string PrepareUrl(string title)

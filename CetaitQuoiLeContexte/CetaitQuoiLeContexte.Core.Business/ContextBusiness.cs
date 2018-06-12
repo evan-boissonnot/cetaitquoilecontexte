@@ -6,6 +6,8 @@ using Boissonnot.Framework.Core.Extensions;
 using CetaitQuoiLeContexte.Core.Interfaces.Data;
 using System.Linq;
 using CetaitQuoiLeContexte.Core.Business.Filters;
+using Boissonnot.Framework.Core.Interfaces.Results;
+using CetaitQuoiLeContexte.Core.Business.Models;
 
 namespace CetaitQuoiLeContexte.Core.Business
 {
@@ -66,12 +68,12 @@ namespace CetaitQuoiLeContexte.Core.Business
             }
         }
 
-        public List<IContext> SelectAll()
+        public IResult<List<IContext>> SelectAll()
         {
             return this.SelectAll(null);
         }
 
-        public List<IContext> SelectAll(IParentFilter<IContext> filter)
+        public IResult<List<IContext>> SelectAll(IParentFilter<IContext> filter)
         {
             var query = this._context.Contexts.AsQueryable();
 
@@ -92,14 +94,22 @@ namespace CetaitQuoiLeContexte.Core.Business
                         query = query.Where(item => item.HtmlTitle.ToLower() == contextFilter.Title.ToLower() ||
                                                     item.Message.ToLower() == contextFilter.Title.ToLower());
 
+                    if(contextFilter.IndexPage.HasValue)
+                        query = query.Skip(contextFilter.IndexPage.Value * contextFilter.TakenNumber.GetValueOrDefault(0));
+
                     if (contextFilter.TakenNumber.HasValue && contextFilter.TakenNumber.Value > 0)
                         query = query.Take(contextFilter.TakenNumber.Value);
                 }
             }
 
-            return query.OrderByDescending(item => item.CreatedDate)
+            var list = query.OrderByDescending(item => item.CreatedDate)
                         .Cast<IContext>()
                         .ToList();
+
+            return new ListContextResult()
+            {
+               Item = list
+            };
         }
 
         public IContext SelectOne(int id)

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Boissonnot.Framework.Core.Interfaces.Results;
 using CetaitQuoiLeContexte.Core.Business.Filters;
 using CetaitQuoiLeContexte.Core.Interfaces.Business;
 using CetaitQuoiLeContexte.Core.Interfaces.Data;
@@ -31,15 +32,23 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Pages
         #region Public methods
         public async Task OnGetAsync()
         {
-            this.ContextList = await this._business.SelectAll(new ContextFilter()
+            IResult<List<IContext>> result = await this._business.SelectAll(new ContextFilter()
             {
                 TakenNumber = this._settings.ContextNbItems
             });
+
+            this.ContextList = result.Item;
+            this.IsNextPageExists = result.HasNextItems;
         }
         #endregion
 
         #region Properties
         public List<IContext> ContextList { get => this._list; set => this._list = value; }
+
+        /// <summary>
+        /// Permet de savoir si on peut passer à la page suivante
+        /// </summary>
+        public bool IsNextPageExists { get; set; }
         #endregion
     }
 }

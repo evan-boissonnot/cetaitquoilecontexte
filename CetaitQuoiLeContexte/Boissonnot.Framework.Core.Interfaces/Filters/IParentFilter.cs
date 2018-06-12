@@ -17,6 +17,11 @@ namespace Boissonnot.Framework.Core.Interfaces.Filters
         int? TakenNumber { get; set; }
 
         /// <summary>
+        /// Index de la page d'items
+        /// </summary>
+        int? IndexPage { get; set; }
+
+        /// <summary>
         /// FIltre par les attributs de l'item en cours
         /// </summary>
         T Model { get; set; }

@@ -29,6 +29,8 @@ namespace CetaitQuoiLeContexte.Core.Business.Filters
         /// Titre formatté
         /// </summary>
         public string Title { get; set; }
+
+        public int? IndexPage { get; set; }
         #endregion
     }
 }

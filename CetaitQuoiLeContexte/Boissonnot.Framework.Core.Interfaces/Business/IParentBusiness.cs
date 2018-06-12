@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Boissonnot.Framework.Core.Interfaces.Results;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,14 +11,14 @@ namespace Boissonnot.Framework.Core.Interfaces.Business
         /// Sélectionne une liste d'éléments
         /// </summary>
         /// <returns></returns>
-        List<T> SelectAll();
+        IResult<List<T>> SelectAll();
 
         /// <summary>
         /// Sélectionne une liste d'éléments avec des filtres
         /// </summary>
         /// <param name="filter">Item de filtre</param>
         /// <returns></returns>
-        List<T> SelectAll(Filters.IParentFilter<T> filter);
+        IResult<List<T>> SelectAll(Filters.IParentFilter<T> filter);
 
         /// <summary>
         /// Sélectionne un élément par son id

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Boissonnot.Framework.Core.Interfaces.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -38,6 +39,7 @@ namespace CetaitQuoiLeContexte.Web.Services.UI
 
             services.AddDbContext<Core.Data.DataDbContext>(options =>
                                                            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            //.UseRowNumberForPaging)); //12/06/2018, voir pour utiliser https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.infrastructure.sqlserverdbcontextoptionsbuilder.userownumberforpaging?view=efcore-2.1 
 
             services.AddSingleton<IDatabaseInitializer, Core.Data.DbInitializer>();
 

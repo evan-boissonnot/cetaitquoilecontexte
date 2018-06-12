@@ -13,6 +13,8 @@ namespace Boissonnot.Framework.Core.Business.Filters
         public int? TakenNumber { get; set; }
 
         public T Model { get; set; }
+
+        public int? IndexPage { get; set; }
         #endregion
     }
 }

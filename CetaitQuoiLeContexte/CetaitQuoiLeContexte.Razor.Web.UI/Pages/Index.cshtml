@@ -12,10 +12,13 @@
     {
         <partial name="_ContextPartial.cshtml" model="item" />
     }
-    <div class="row text-right">
-        <a href="#" class="btn btn-primary">Suivants ></a>
-    </div>
 
+    @if (this.Model.IsNextPageExists)
+    {
+        <div class="row text-right">
+            <a href="#" class="btn btn-primary">Suivants ></a>
+        </div>
+    }
 </div>
 }
 

@@ -13735,6 +13735,7 @@
       "CetaitQuoiLeContexte.Core.Data >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Interfaces.Business >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.1.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "Newtonsoft.Json >= 11.0.2"
     ]
@@ -13797,6 +13798,10 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[2.1.0, )"
           },

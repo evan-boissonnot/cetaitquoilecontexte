@@ -1,4 +1,5 @@
 ﻿using Boissonnot.Framework.Core.Interfaces.Filters;
+using Boissonnot.Framework.Core.Interfaces.Results;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,7 +11,7 @@ namespace Boissonnot.Framework.Core.Business
 
     {
         #region Public methods
-        public virtual List<T> SelectAll(IParentFilter<T> filter)
+        public virtual IResult<List<T>> SelectAll(IParentFilter<T> filter)
         {
             throw new NotImplementedException();
         }
@@ -30,7 +31,7 @@ namespace Boissonnot.Framework.Core.Business
             throw new NotImplementedException();
         }
 
-        public virtual List<T> SelectAll()
+        public virtual IResult<List<T>> SelectAll()
         {
             throw new NotImplementedException();
         }

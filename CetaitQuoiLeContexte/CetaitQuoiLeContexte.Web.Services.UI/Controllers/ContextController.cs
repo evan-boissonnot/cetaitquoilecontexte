@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CetaitQuoiLeContexte.Core.Business.Filters;
+using CetaitQuoiLeContexte.Core.Business.Models;
 using CetaitQuoiLeContexte.Core.Interfaces.Business;
 using CetaitQuoiLeContexte.Core.Interfaces.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -27,19 +28,30 @@ namespace CetaitQuoiLeContexte.Web.Services.UI.Controllers
 
         #region Public methods
         [HttpGet]
-        public IEnumerable<IContext> Get()
+        public ListContextResult Get()
         {
-            IEnumerable<IContext> list = null;
             string fromQuery = this.HttpContext.Request.Query["from"];
             string nbItemsQuery = this.HttpContext.Request.Query["nb"];
             string titleQuery = this.HttpContext.Request.Query["title"];
+            string indexPageQuery = this.HttpContext.Request.Query["index"];
             int nbItems = -1;
+            int indexPage = 0;
 
             int.TryParse(nbItemsQuery, out nbItems);
+            int.TryParse(indexPageQuery, out indexPage);
 
-            list = this._business.SelectAll(new ContextFilter() { From = fromQuery, TakenNumber = nbItems, Title = titleQuery });
+            var result = this._business.SelectAll(new ContextFilter()
+            {
+                From = fromQuery,
+                TakenNumber = nbItems,
+                Title = titleQuery,
+                IndexPage = indexPage
+            });
 
-            return list;
+            return new ListContextResult()
+            {
+                Item = result.Item
+            };
         }
 
         // GET api/values/5
