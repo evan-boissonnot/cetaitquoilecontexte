@@ -32,3 +32,7 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeCont
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Data.csproj.CopyComplete
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Data.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Data.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Logging.Console.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Logging.Console.xml
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Loggers.dll
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Core.Data\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Loggers.pdb

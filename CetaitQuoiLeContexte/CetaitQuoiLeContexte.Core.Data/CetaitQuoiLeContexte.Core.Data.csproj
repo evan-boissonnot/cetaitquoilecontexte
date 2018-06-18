@@ -21,6 +21,13 @@
   <ItemGroup>
     <ProjectReference Include="..\Boissonnot.Framework.Core.Interfaces\Boissonnot.Framework.Core.Interfaces.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Data\CetaitQuoiLeContexte.Core.Interfaces.Data.csproj" />
+    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Loggers\CetaitQuoiLeContexte.Core.Loggers.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Logging.Console">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.logging.console\2.1.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Console.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

@@ -25,6 +25,7 @@
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Business\CetaitQuoiLeContexte.Core.Business.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Data\CetaitQuoiLeContexte.Core.Data.csproj" />
     <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Interfaces.Business\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj" />
+    <ProjectReference Include="..\CetaitQuoiLeContexte.Core.Loggers\CetaitQuoiLeContexte.Core.Loggers.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5333,6 +5333,7 @@
         "dependencies": {
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Loggers": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.1.0",
           "Microsoft.EntityFrameworkCore.Design": "2.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
@@ -5374,6 +5375,20 @@
         },
         "runtime": {
           "bin/placeholder/CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Loggers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Loggers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CetaitQuoiLeContexte.Core.Loggers.dll": {}
         }
       }
     }
@@ -13725,6 +13740,11 @@
       "type": "project",
       "path": "../CetaitQuoiLeContexte.Core.Interfaces.Data/CetaitQuoiLeContexte.Core.Interfaces.Data.csproj",
       "msbuildProject": "../CetaitQuoiLeContexte.Core.Interfaces.Data/CetaitQuoiLeContexte.Core.Interfaces.Data.csproj"
+    },
+    "CetaitQuoiLeContexte.Core.Loggers/1.0.0": {
+      "type": "project",
+      "path": "../CetaitQuoiLeContexte.Core.Loggers/CetaitQuoiLeContexte.Core.Loggers.csproj",
+      "msbuildProject": "../CetaitQuoiLeContexte.Core.Loggers/CetaitQuoiLeContexte.Core.Loggers.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13734,6 +13754,7 @@
       "CetaitQuoiLeContexte.Core.Business >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Data >= 1.0.0",
       "CetaitQuoiLeContexte.Core.Interfaces.Business >= 1.0.0",
+      "CetaitQuoiLeContexte.Core.Loggers >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.0",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -13784,6 +13805,9 @@
             },
             "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj": {
               "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Interfaces.Business\\CetaitQuoiLeContexte.Core.Interfaces.Business.csproj"
+            },
+            "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Loggers\\CetaitQuoiLeContexte.Core.Loggers.csproj": {
+              "projectPath": "F:\\Works\\Perso\\CetaitQuoiLeContexte.Github\\CetaitQuoiLeContexte\\CetaitQuoiLeContexte.Core.Loggers\\CetaitQuoiLeContexte.Core.Loggers.csproj"
             }
           }
         }

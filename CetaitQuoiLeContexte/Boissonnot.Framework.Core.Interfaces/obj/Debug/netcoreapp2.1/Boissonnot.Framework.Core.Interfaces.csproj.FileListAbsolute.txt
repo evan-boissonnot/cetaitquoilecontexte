@@ -6,4 +6,3 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Frame
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.pdb
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.pdb
-F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\Boissonnot.Framework.Core.Interfaces\obj\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Interfaces.csprojAssemblyReference.cache

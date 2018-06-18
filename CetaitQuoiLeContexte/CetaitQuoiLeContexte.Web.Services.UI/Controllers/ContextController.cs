@@ -34,18 +34,16 @@ namespace CetaitQuoiLeContexte.Web.Services.UI.Controllers
             string nbItemsQuery = this.HttpContext.Request.Query["nb"];
             string titleQuery = this.HttpContext.Request.Query["title"];
             string indexPageQuery = this.HttpContext.Request.Query["index"];
-            int nbItems = -1;
-            int indexPage = 0;
 
-            int.TryParse(nbItemsQuery, out nbItems);
-            int.TryParse(indexPageQuery, out indexPage);
+            int.TryParse(nbItemsQuery, out int nbItems);
+            int.TryParse(indexPageQuery, out int index);
 
             var result = this._business.SelectAll(new ContextFilter()
             {
                 From = fromQuery,
                 TakenNumber = nbItems,
                 Title = titleQuery,
-                IndexPage = indexPage
+                IndexPage = index
             });
 
             return new ListContextResult()

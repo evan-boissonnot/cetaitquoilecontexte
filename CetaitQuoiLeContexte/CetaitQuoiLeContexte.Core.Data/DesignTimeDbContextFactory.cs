@@ -29,7 +29,7 @@ namespace CetaitQuoiLeContexte.Core.Data
 
             builder.UseSqlServer(config);
 
-            return new DataDbContext(builder.Options);
+            return new DataDbContext(builder.Options, null);
         }
         #endregion
     }

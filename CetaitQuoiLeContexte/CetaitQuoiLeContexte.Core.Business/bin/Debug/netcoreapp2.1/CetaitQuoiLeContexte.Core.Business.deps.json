@@ -621,6 +621,7 @@
         "dependencies": {
           "Boissonnot.Framework.Core.Interfaces": "1.0.0",
           "CetaitQuoiLeContexte.Core.Interfaces.Data": "1.0.0",
+          "CetaitQuoiLeContexte.Core.Loggers": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.1.0",
           "Microsoft.EntityFrameworkCore.Design": "2.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
@@ -649,6 +650,15 @@
         },
         "runtime": {
           "CetaitQuoiLeContexte.Core.Interfaces.Data.dll": {}
+        }
+      },
+      "CetaitQuoiLeContexte.Core.Loggers/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.0"
+        },
+        "runtime": {
+          "CetaitQuoiLeContexte.Core.Loggers.dll": {}
         }
       }
     }
@@ -1124,6 +1134,11 @@
       "sha512": ""
     },
     "CetaitQuoiLeContexte.Core.Interfaces.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CetaitQuoiLeContexte.Core.Loggers/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

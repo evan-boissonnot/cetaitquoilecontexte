@@ -6,12 +6,16 @@ using Boissonnot.Framework.Core.Interfaces.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore.SqlServer;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using CetaitQuoiLeContexte.Core.Data;
+using CetaitQuoiLeContexte.Core.Data.Loggers;
+using CetaitQuoiLeContexte.Core.Loggers;
 
 namespace CetaitQuoiLeContexte.Web.Services.UI
 {
@@ -37,9 +41,14 @@ namespace CetaitQuoiLeContexte.Web.Services.UI
                 options.ModelBinderProviders.Insert(0, new Binders.ContextBinderProvider());
             });
 
-            services.AddDbContext<Core.Data.DataDbContext>(options =>
-                                                           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            //.UseRowNumberForPaging)); //12/06/2018, voir pour utiliser https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.infrastructure.sqlserverdbcontextoptionsbuilder.userownumberforpaging?view=efcore-2.1 
+            services.AddSingleton<ILogger, DefaultLogger>();
+            services.AddSingleton<ILoggerProvider, DatabaseLoggerProvider>();
+            services.AddSingleton<ILoggerFactory, DefaultLoggerFactory>();
+
+            services.AddEntityFrameworkSqlServer()
+                    .AddDbContext<Core.Data.DataDbContext>(options => 
+                                                            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), 
+                                                                                 opt => opt.UseRowNumberForPaging()));
 
             services.AddSingleton<IDatabaseInitializer, Core.Data.DbInitializer>();
 

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -17,9 +18,14 @@ namespace CetaitQuoiLeContexte.Core.Data
     /// </summary>
     public class DataDbContext : DbContext
     {
+        #region Fields
+        private ILoggerFactory _loggerFactory = null;
+        #endregion
+
         #region Constructors
-        public DataDbContext(DbContextOptions<DataDbContext> options) : base(options)
+        public DataDbContext(DbContextOptions<DataDbContext> options, ILoggerFactory loggerFactory) : base(options)
         {
+            this._loggerFactory = loggerFactory;
         }
         #endregion
 
@@ -35,6 +41,11 @@ namespace CetaitQuoiLeContexte.Core.Data
 
             modelBuilder.Entity<Core.Data.Context>().ToTable(typeof(Core.Data.Context).Name);
             modelBuilder.Entity<Core.Data.Person>().ToTable(typeof(Core.Data.Person).Name);
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseLoggerFactory(this._loggerFactory);
         }
         #endregion
 
