@@ -42,11 +42,6 @@ namespace CetaitQuoiLeContexte.Core.Data
             modelBuilder.Entity<Core.Data.Context>().ToTable(typeof(Core.Data.Context).Name);
             modelBuilder.Entity<Core.Data.Person>().ToTable(typeof(Core.Data.Person).Name);
         }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseLoggerFactory(this._loggerFactory);
-        }
         #endregion
 
         #region Properties

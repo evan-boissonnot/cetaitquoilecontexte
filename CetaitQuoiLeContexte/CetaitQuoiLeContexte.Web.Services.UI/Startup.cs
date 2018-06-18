@@ -41,10 +41,6 @@ namespace CetaitQuoiLeContexte.Web.Services.UI
                 options.ModelBinderProviders.Insert(0, new Binders.ContextBinderProvider());
             });
 
-            services.AddSingleton<ILogger, DefaultLogger>();
-            services.AddSingleton<ILoggerProvider, DatabaseLoggerProvider>();
-            services.AddSingleton<ILoggerFactory, DefaultLoggerFactory>();
-
             services.AddEntityFrameworkSqlServer()
                     .AddDbContext<Core.Data.DataDbContext>(options => 
                                                             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), 

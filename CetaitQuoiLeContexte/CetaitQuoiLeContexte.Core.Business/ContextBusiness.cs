@@ -79,7 +79,9 @@ namespace CetaitQuoiLeContexte.Core.Business
 
             if(filter != null)
             {
-                if(filter.Id > 0)
+                query = query.OrderByDescending(item => item.CreatedDate);
+
+                if (filter.Id > 0)
                     query = query.Where(item => item.Id == filter.Id);
 
                 if (filter is ContextFilter contextFilter)
@@ -102,7 +104,7 @@ namespace CetaitQuoiLeContexte.Core.Business
                 }
             }
 
-            var list = query.OrderByDescending(item => item.CreatedDate)
+            var list = query
                         .Cast<IContext>()
                         .ToList();
 

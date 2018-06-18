@@ -48,7 +48,8 @@ namespace CetaitQuoiLeContexte.Web.Services.UI.Controllers
 
             return new ListContextResult()
             {
-                Item = result.Item
+                Item = result.Item,
+                HasNextItems = result.Item.Count < nbItems
             };
         }
 

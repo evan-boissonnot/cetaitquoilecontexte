@@ -62,3 +62,4 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeCont
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI\bin\Debug\netcoreapp2.1\Boissonnot.Framework.Core.Extensions.pdb
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Loggers.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Loggers.pdb
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Web.Services.UI\bin\Debug\netcoreapp2.1\nlog.config
