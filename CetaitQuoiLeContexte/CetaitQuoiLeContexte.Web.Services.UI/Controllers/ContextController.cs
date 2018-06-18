@@ -49,7 +49,7 @@ namespace CetaitQuoiLeContexte.Web.Services.UI.Controllers
             return new ListContextResult()
             {
                 Item = result.Item,
-                HasNextItems = result.Item.Count < nbItems
+                HasNextItems = result.HasNextItems
             };
         }
 

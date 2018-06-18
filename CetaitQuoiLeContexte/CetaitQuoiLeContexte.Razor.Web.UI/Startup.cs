@@ -58,6 +58,7 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI
 
                     options.Conventions.AddPageRoute("/Context", "contexte/{title}");
                     options.Conventions.AddPageRoute("/AddContext", "contexte/nouveau");
+                    options.Conventions.AddPageRoute("/Index", "page/{indexPage}");
 
                     options.Conventions.AddPageRoute("/index", "{*url}");
                 });

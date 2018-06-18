@@ -30,15 +30,28 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Pages
         #endregion
 
         #region Public methods
-        public async Task OnGetAsync()
+        public async Task OnGetAsync(string indexPage)
         {
+            int index = 0;
+
+            if (!string.IsNullOrEmpty(indexPage))
+                int.TryParse(indexPage, out index);
+
             IResult<List<IContext>> result = await this._business.SelectAll(new ContextFilter()
             {
-                TakenNumber = this._settings.ContextNbItems
+                TakenNumber = this._settings.ContextNbItems,
+                IndexPage = index
             });
 
             this.ContextList = result.Item;
             this.IsNextPageExists = result.HasNextItems;
+            this.IsPreviousExists = index > 0;
+
+
+            this.NextPageIndex = index + 1;
+
+            if(index - 1 >= 0)
+                this.PreviousPageIndex = index - 1;
         }
         #endregion
 
@@ -49,6 +62,21 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Pages
         /// Permet de savoir si on peut passer à la page suivante
         /// </summary>
         public bool IsNextPageExists { get; set; }
+
+        /// <summary>
+        /// Permet de savoir si on peut revenir à la page précédente
+        /// </summary>
+        public bool IsPreviousExists { get; set; }
+
+        /// <summary>
+        /// Index de la page suivante
+        /// </summary>
+        public int NextPageIndex { get; set; }
+
+        /// <summary>
+        /// Index de la page précédente
+        /// </summary>
+        public int PreviousPageIndex { get; set; }
         #endregion
     }
 }

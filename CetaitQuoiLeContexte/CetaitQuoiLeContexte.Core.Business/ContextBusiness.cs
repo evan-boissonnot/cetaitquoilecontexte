@@ -49,7 +49,7 @@ namespace CetaitQuoiLeContexte.Core.Business
             if (currentPerson == null)
                 currentPerson = item.Author;
 
-            if(item.Id == 0)
+            if (item.Id == 0)
             {
                 Data.Context data = new Data.Context()
                 {
@@ -57,7 +57,7 @@ namespace CetaitQuoiLeContexte.Core.Business
                     Message = item.Message,
                     From = item.From,
                     HtmlTitle = item.Message ?? string.Empty,
-                    Author = (Data.Person) currentPerson
+                    Author = (Data.Person)currentPerson
                 };
                 data.HtmlTitle = data.HtmlTitle.ToUrl();
 
@@ -76,8 +76,10 @@ namespace CetaitQuoiLeContexte.Core.Business
         public IResult<List<IContext>> SelectAll(IParentFilter<IContext> filter)
         {
             var query = this._context.Contexts.AsQueryable();
+            int nbItemToTake = 0;
+            int nbItemsToSkip = 0;
 
-            if(filter != null)
+            if (filter != null)
             {
                 query = query.OrderByDescending(item => item.CreatedDate);
 
@@ -96,11 +98,17 @@ namespace CetaitQuoiLeContexte.Core.Business
                         query = query.Where(item => item.HtmlTitle.ToLower() == contextFilter.Title.ToLower() ||
                                                     item.Message.ToLower() == contextFilter.Title.ToLower());
 
-                    if(contextFilter.IndexPage.HasValue)
-                        query = query.Skip(contextFilter.IndexPage.Value * contextFilter.TakenNumber.GetValueOrDefault(0));
+                    if (contextFilter.IndexPage.HasValue)
+                    {
+                        nbItemsToSkip = contextFilter.IndexPage.Value * contextFilter.TakenNumber.GetValueOrDefault(0);
+                        query = query.Skip(nbItemsToSkip);
+                    }
 
                     if (contextFilter.TakenNumber.HasValue && contextFilter.TakenNumber.Value > 0)
+                    {
+                        nbItemToTake = contextFilter.TakenNumber.Value;
                         query = query.Take(contextFilter.TakenNumber.Value);
+                    }
                 }
             }
 
@@ -108,9 +116,14 @@ namespace CetaitQuoiLeContexte.Core.Business
                         .Cast<IContext>()
                         .ToList();
 
+           bool hasMoreItems = false;
+            if (nbItemToTake > 0)
+                hasMoreItems = this._context.Contexts.Skip(nbItemsToSkip + nbItemToTake + 1).Take(1).Any();
+
             return new ListContextResult()
             {
-               Item = list
+                Item = list,
+                HasNextItems = hasMoreItems
             };
         }
 

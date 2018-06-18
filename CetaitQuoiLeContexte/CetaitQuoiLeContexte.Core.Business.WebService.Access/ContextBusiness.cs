@@ -147,6 +147,9 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
                 if (realFilter.TakenNumber.HasValue)
                     url += $"nb={realFilter.TakenNumber.Value}&";
 
+                if (realFilter.IndexPage.HasValue)
+                    url += $"index={realFilter.IndexPage.Value}&";
+
                 if (realFilter.Id > 0)
                     url += $"id={realFilter.Id}&";
 

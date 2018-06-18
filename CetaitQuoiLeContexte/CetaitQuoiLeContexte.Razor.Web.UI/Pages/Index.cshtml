@@ -13,10 +13,17 @@
         <partial name="_ContextPartial.cshtml" model="item" />
     }
 
+    @if (this.Model.IsPreviousExists)
+    {
+        <div class="row text-left">
+            <a href="/page/@Model.PreviousPageIndex" class="btn btn-primary">< Précédent(s)</a>
+        </div>
+    }
+
     @if (this.Model.IsNextPageExists)
     {
         <div class="row text-right">
-            <a href="#" class="btn btn-primary">Suivants ></a>
+            <a href="/page/@Model.NextPageIndex" class="btn btn-primary">Suivant(s) ></a>
         </div>
     }
 </div>

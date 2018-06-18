@@ -78,7 +78,6 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeCont
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Razor.Web.UI.csproj.CoreCompileInputs.cache
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Razor.Web.UI.RazorAssemblyInfo.cache
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Razor.Web.UI.RazorAssemblyInfo.cs
-F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Razor.Web.UI.AssemblyInfoInputs.cache
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Razor.Web.UI.AssemblyInfo.cs
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Razor.Web.UI.TagHelpers.input.cache
@@ -155,3 +154,5 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeCont
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\bin\Debug\netcoreapp2.1\CetaitQuoiLeContexte.Core.Interfaces.pdb
 F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\Razor\Pages\AddContext.g.cshtml.cs
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\Works\Perso\CetaitQuoiLeContexte.Github\CetaitQuoiLeContexte\CetaitQuoiLeContexte.Razor.Web.UI\bin\Debug\netcoreapp2.1\nlog.config
