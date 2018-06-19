@@ -33,12 +33,48 @@
 @section Scripts
 {
 <script type="text/javascript">
-    function statusChangeCallback(response) {
-        console.log('statusChangeCallback');
-        console.log(response);
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/fr_FR/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 
+    $(document).ready(function() {
+        $(".publish-fb").click(function() {
+            var $currentButton = $(this);
+
+            FB.getLoginStatus(function(response) {
+                if (response.status === 'connected') {
+                    postContentOfContextOnWallFromMe($currentButton.data("content"),
+                                                     $currentButton.data("url"));
+                } else {
+                    FB.login(function(response){
+                        validFacebookIsConnected();
+                    }, {scope: 'public_profile,email,publish_actions'});
+               }
+            });
+        });
+    });
+
+    function postContentOfContextOnWallFromMe(content, url) {
+        var data = {
+            caption: "Une nouvelle phrase sans son contexte est arrivée ! Sauras-tu le retrouver ?",
+            message: content,
+            link: url
+        };
+
+        FB.api('/me/feed', 'post', data, onPostOnWallCallBack);
+    }
+
+    function onPostOnWallCallBack(response) {
+        console.log(response);
+    }
+
+    function statusChangeCallback(response) {
         if (response.status === 'connected') {
-          testAPI();
+          validFacebookIsConnected();
         } else {
           updateTitleSharedLinksUpToState(false);
         }
@@ -51,12 +87,6 @@
         }
     }
 
-   function checkLoginState() {
-        FB.getLoginStatus(function(response) {
-          statusChangeCallback(response);
-        });
-   }
-
     window.fbAsyncInit = function() {
         FB.init({
             appId      : '231690860973031',
@@ -68,23 +98,21 @@
         FB.getLoginStatus(function(response) {
           statusChangeCallback(response);
         });
-    };
+    }
 
+    function checkLoginState(actionAfterVerifLogin) {
+        FB.getLoginStatus(function(response) {
+          actionAfterVerifLogin(response);
+        });
+   }
 
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
-
-    function testAPI() {
-        console.log('Welcome!  Fetching your information.... ');
+    function validFacebookIsConnected() {
         FB.api('/me', function(response) {
-          console.log('Successful login for: ' + response.name);
           updateTitleSharedLinksUpToState(true);
+
+          $(document).ready(function() {
+
+          });
         });
       }
 </script>
