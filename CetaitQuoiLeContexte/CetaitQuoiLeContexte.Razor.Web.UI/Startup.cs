@@ -60,7 +60,7 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI
                     options.Conventions.AddPageRoute("/AddContext", "contexte/nouveau");
                     options.Conventions.AddPageRoute("/Index", "page/{indexPage}");
 
-                    options.Conventions.AddPageRoute("/index", "{*url}");
+                    //options.Conventions.AddPageRoute("/index", "{*url}");
                 });
 
             // Register no-op EmailSender used by account confirmation and password reset during development

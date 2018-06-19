@@ -43,9 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContexte.Core",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContexte.Core.Interfaces", "CetaitQuoiLeContexte.Core.Interfaces\CetaitQuoiLeContexte.Core.Interfaces.csproj", "{FF432AD9-DFA1-45DA-B8EC-76F514448353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContexte.Core.Interfaces.Loggers", "..\CetaitQuoiLeContexte.Core.Interfaces.Loggers\CetaitQuoiLeContexte.Core.Interfaces.Loggers.csproj", "{BCE44429-F51C-40F0-B4AF-4531D5E2FDCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContexte.Core.Interfaces.Loggers", "..\CetaitQuoiLeContexte.Core.Interfaces.Loggers\CetaitQuoiLeContexte.Core.Interfaces.Loggers.csproj", "{BCE44429-F51C-40F0-B4AF-4531D5E2FDCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CetaitQuoiLeContexte.Core.Loggers", "CetaitQuoiLeContexte.Core.Loggers\CetaitQuoiLeContexte.Core.Loggers.csproj", "{AA6889E8-066A-4ECB-8DCD-1290F701577C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CetaitQuoiLeContexte.Core.Loggers", "CetaitQuoiLeContexte.Core.Loggers\CetaitQuoiLeContexte.Core.Loggers.csproj", "{AA6889E8-066A-4ECB-8DCD-1290F701577C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
