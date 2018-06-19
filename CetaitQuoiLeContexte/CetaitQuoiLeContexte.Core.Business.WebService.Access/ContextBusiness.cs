@@ -100,11 +100,9 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
             {
                 if (result.IsSuccessStatusCode)
                 {
-                    var listResult = await result.Content.ReadAsAsync<List<PocoContext>>();
-                    var list = listResult.Cast<IContext>().ToList();
-
-                    if (list.Count > 0)
-                        context = list[0];
+                    Models.ListPocoContextResult itemResult = await result.Content.ReadAsAsync<Models.ListPocoContextResult>();
+                    if (itemResult != null && itemResult.Item.Count > 0)
+                        context = itemResult.Item[0];
                 }
             }
 
