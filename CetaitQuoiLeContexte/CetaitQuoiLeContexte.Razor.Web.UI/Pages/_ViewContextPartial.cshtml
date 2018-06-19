@@ -1,0 +1,15 @@
+@using CetaitQuoiLeContexte.Core.Interfaces.Data
+@using CetaitQuoiLeContexte.Razor.Web.UI.Data.Extensions
+@model IContext
+
+<div class="row">
+    <h1>@Model.Message</h1>
+</div>
+
+@if (!string.IsNullOrEmpty(Model.From))
+{
+<div class="row">
+    <div class="col-lg-2"><b>Contexte repéré</b> :</div>
+    <div class="col-lg-3"><h3>@Model.From</h3></div>
+</div>
+}

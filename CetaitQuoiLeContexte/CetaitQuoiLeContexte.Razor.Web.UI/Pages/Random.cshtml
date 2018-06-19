@@ -1,0 +1,7 @@
+﻿@page "{title}"
+@model CetaitQuoiLeContexte.Razor.Web.UI.Pages.ContextModel
+@{
+    ViewData["Title"] = this.Model.Current.Message + " - Au hasard - C'était quoi le contexte, déjà ?";
+}
+
+<partial name="_ViewContextPartial.cshtml" model="Model" />

@@ -56,6 +56,7 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI
                     options.Conventions.AuthorizeFolder("/Account/Manage");
                     options.Conventions.AuthorizePage("/Account/Logout");
 
+                    options.Conventions.AddPageRoute("/Random", "au-hasard");
                     options.Conventions.AddPageRoute("/Context", "contexte/{title}");
                     options.Conventions.AddPageRoute("/AddContext", "contexte/nouveau");
                     options.Conventions.AddPageRoute("/Index", "page/{indexPage}");

@@ -18,16 +18,28 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Pages
         #region Constructrors
         public ContextModel(IContextAsAsyncBusiness business)
         {
-            this._business = business;
+            this.Business = business;
         }
         #endregion
 
         #region Public methods
-        public async Task OnGetAsync(string title)
+        public virtual async Task OnGetAsync(string title)
         {
             this.Title = title;
 
-            this.Current = await this._business.SelectOne(title);
+            await this.SelectOneContext(title);
+        }
+        #endregion
+
+        #region Internal methods
+        /// <summary>
+        /// Recherche un context par son titre
+        /// </summary>
+        /// <param name="title">Titre recherché</param>
+        /// <returns></returns>
+        virtual protected async Task SelectOneContext(string title)
+        {
+            this.Current = await this.Business.SelectOne(title);
         }
         #endregion
 
@@ -35,6 +47,11 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Pages
         public string Title { get; set; }
 
         public IContext Current { get; set; }
+
+        /// <summary>
+        /// Business pour agir sur les contextes
+        /// </summary>
+        public IContextAsAsyncBusiness Business { get => this._business; set => this._business = value; }
         #endregion
     }
 }

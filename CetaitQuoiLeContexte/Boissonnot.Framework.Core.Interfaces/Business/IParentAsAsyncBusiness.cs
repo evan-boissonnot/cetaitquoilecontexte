@@ -36,6 +36,12 @@ namespace Boissonnot.Framework.Core.Interfaces.Business
         Task<T> SelectOne(string title);
 
         /// <summary>
+        /// Recherche un élément au hasard
+        /// </summary>
+        /// <returns></returns>
+        Task<T> SelectOneWithRandomSearching();
+
+        /// <summary>
         /// Enregistre un élément (ajout ou modification)
         /// </summary>
         /// <param name="item">Item à ajouter</param>

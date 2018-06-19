@@ -108,6 +108,11 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 
             return context;
         }
+
+        public Task<IContext> SelectOneWithRandomSearching()
+        {
+            throw new NotImplementedException();
+        }
         #endregion
 
         #region Internal methods
