@@ -38,7 +38,7 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Pages
             if (ModelState.IsValid)
             {
                 await this._business.Save(context);
-                result = this.RedirectToPage("./Index");
+                result = this.RedirectToPage("/Index", new { indexPage = 0 });
             }
 
             return result;
