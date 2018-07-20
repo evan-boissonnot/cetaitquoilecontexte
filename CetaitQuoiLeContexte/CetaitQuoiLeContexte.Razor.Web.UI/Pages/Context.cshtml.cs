@@ -23,11 +23,11 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Pages
         #endregion
 
         #region Public methods
-        public virtual async Task OnGetAsync(string title)
+        public virtual async Task<IActionResult> OnGetAsync(string title)
         {
-            this.Title = title;
+            await this.SetCurrentAndTitle(title);
 
-            await this.SelectOneContext(title);
+            return Page();
         }
         #endregion
 
@@ -37,9 +37,15 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Pages
         /// </summary>
         /// <param name="title">Titre recherché</param>
         /// <returns></returns>
-        virtual protected async Task SelectOneContext(string title)
+        protected virtual async Task SelectOneContext(string title)
         {
             this.Current = await this.Business.SelectOne(title);
+        }
+
+        protected virtual async Task SetCurrentAndTitle(string title)
+        {
+            await this.SelectOneContext(title);
+            this.Title = title;
         }
         #endregion
 

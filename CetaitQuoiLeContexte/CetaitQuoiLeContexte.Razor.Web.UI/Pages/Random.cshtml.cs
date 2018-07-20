@@ -16,11 +16,11 @@ namespace CetaitQuoiLeContexte.Razor.Web.UI.Pages
         #endregion
 
         #region Public methods
-        public async override Task OnGetAsync(string title)
+        public async override Task<IActionResult> OnGetAsync(string title)
         {
-            IContext context = await this.Business.SelectOneWithRandomSearching();
+            IContext context =  await this.Business.SelectOneWithRandomSearching();
 
-            throw new NotImplementedException("Finir en redirigeant vers la page d'un context");
+            return this.RedirectToPage("/Context", new { title = context.HtmlTitle });
         }
         #endregion
     }
