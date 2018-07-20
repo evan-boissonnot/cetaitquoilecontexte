@@ -98,24 +98,40 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 
             using (var result = await this._client.GetAsync(this.PrepareUrl(title)))
             {
-                if (result.IsSuccessStatusCode)
-                {
-                    Models.ListPocoContextResult itemResult = await result.Content.ReadAsAsync<Models.ListPocoContextResult>();
-                    if (itemResult != null && itemResult.Item.Count > 0)
-                        context = itemResult.Item[0];
-                }
+                context = await this.TakeOneFromApi(result);
             }
 
             return context;
         }
 
-        public Task<IContext> SelectOneWithRandomSearching()
+        public async Task<IContext> SelectOneWithRandomSearching()
         {
-            throw new NotImplementedException();
+            IContext context = null;
+
+            using (var result = await this._client.GetAsync(this.PrepareUrl(new ContextFilter() { IsRandomGet = true, TakenNumber = 1 })))
+            {
+                context = await this.TakeOneFromApi(result);
+            }
+
+            return context;
         }
         #endregion
 
         #region Internal methods
+        private async Task<IContext> TakeOneFromApi(HttpResponseMessage result)
+        {
+            IContext context = null;
+
+            if (result.IsSuccessStatusCode)
+            {
+                Models.ListPocoContextResult itemResult = await result.Content.ReadAsAsync<Models.ListPocoContextResult>();
+                if (itemResult != null && itemResult.Item.Count > 0)
+                    context = itemResult.Item[0];
+            }
+
+            return context;
+        }
+
         private async Task Insert(IContext context)
         {
             using (var result = await this._client.PostAsJsonAsync(BASE_URL, context)) {}

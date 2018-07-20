@@ -34,16 +34,19 @@ namespace CetaitQuoiLeContexte.Web.Services.UI.Controllers
             string nbItemsQuery = this.HttpContext.Request.Query["nb"];
             string titleQuery = this.HttpContext.Request.Query["title"];
             string indexPageQuery = this.HttpContext.Request.Query["index"];
+            string isRandomQuery = this.HttpContext.Request.Query["random"];
 
             int.TryParse(nbItemsQuery, out int nbItems);
             int.TryParse(indexPageQuery, out int index);
+            bool.TryParse(isRandomQuery, out bool isRandom);
 
             var result = this._business.SelectAll(new ContextFilter()
             {
                 From = fromQuery,
                 TakenNumber = nbItems,
                 Title = titleQuery,
-                IndexPage = index
+                IndexPage = index,
+                IsRandomGet = isRandom
             });
 
             return new ListContextResult()

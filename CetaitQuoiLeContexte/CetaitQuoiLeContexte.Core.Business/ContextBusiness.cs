@@ -76,7 +76,7 @@ namespace CetaitQuoiLeContexte.Core.Business
         public IResult<List<IContext>> SelectAll(IParentFilter<IContext> filter)
         {
             var query = this._context.Contexts.AsQueryable();
-            int nbItemToTake = 0;
+            int nbItemsToTake = 0;
             int nbItemsToSkip = 0;
 
             if (filter != null)
@@ -86,30 +86,7 @@ namespace CetaitQuoiLeContexte.Core.Business
                 if (filter.Id > 0)
                     query = query.Where(item => item.Id == filter.Id);
 
-                if (filter is ContextFilter contextFilter)
-                {
-                    if (contextFilter.BeginDate > DateTime.MinValue)
-                        query = query.Where(item => item.CreatedDate >= contextFilter.BeginDate);
-
-                    if (!string.IsNullOrEmpty(contextFilter.From))
-                        query = query.Where(item => item.From.ToLower() == contextFilter.From.ToLower());
-
-                    if (!string.IsNullOrEmpty(contextFilter.Title))
-                        query = query.Where(item => item.HtmlTitle.ToLower() == contextFilter.Title.ToLower() ||
-                                                    item.Message.ToLower() == contextFilter.Title.ToLower());
-
-                    if (contextFilter.IndexPage.HasValue)
-                    {
-                        nbItemsToSkip = contextFilter.IndexPage.Value * contextFilter.TakenNumber.GetValueOrDefault(0);
-                        query = query.Skip(nbItemsToSkip);
-                    }
-
-                    if (contextFilter.TakenNumber.HasValue && contextFilter.TakenNumber.Value > 0)
-                    {
-                        nbItemToTake = contextFilter.TakenNumber.Value;
-                        query = query.Take(contextFilter.TakenNumber.Value);
-                    }
-                }
+                this.PrepareSelectAllQuery(filter, query, out nbItemsToSkip, out nbItemsToTake);
             }
 
             var list = query
@@ -117,8 +94,8 @@ namespace CetaitQuoiLeContexte.Core.Business
                         .ToList();
 
            bool hasMoreItems = false;
-            if (nbItemToTake > 0)
-                hasMoreItems = this._context.Contexts.Skip(nbItemsToSkip + nbItemToTake + 1).Take(1).Any();
+            if (nbItemsToTake > 0)
+                hasMoreItems = this._context.Contexts.Skip(nbItemsToSkip + nbItemsToTake + 1).Take(1).Any();
 
             return new ListContextResult()
             {
@@ -130,6 +107,42 @@ namespace CetaitQuoiLeContexte.Core.Business
         public IContext SelectOne(int id)
         {
             return this._context.Contexts.First(item => item.Id == id);
+        }
+        #endregion
+
+        #region Internal methods
+        private void PrepareSelectAllQuery(IParentFilter<IContext> filter, IQueryable<Data.Context> query, 
+                                           out int nbItemsToSkip, out int nbItemsToTake)
+        {
+            nbItemsToSkip = 0;
+            nbItemsToTake = 0;
+
+            if (filter is ContextFilter contextFilter)
+            {
+                if (contextFilter.BeginDate > DateTime.MinValue)
+                    query = query.Where(item => item.CreatedDate >= contextFilter.BeginDate);
+
+                if (!string.IsNullOrEmpty(contextFilter.From))
+                    query = query.Where(item => item.From.ToLower() == contextFilter.From.ToLower());
+
+                if (!string.IsNullOrEmpty(contextFilter.Title))
+                    query = query.Where(item => item.HtmlTitle.ToLower() == contextFilter.Title.ToLower() ||
+                                                item.Message.ToLower() == contextFilter.Title.ToLower());
+
+                if (contextFilter.IndexPage.HasValue)
+                {
+                    nbItemsToSkip = contextFilter.IndexPage.Value * contextFilter.TakenNumber.GetValueOrDefault(0);
+                    query = query.Skip(nbItemsToSkip);
+                }
+
+                if (contextFilter.TakenNumber.HasValue && contextFilter.TakenNumber.Value > 0)
+                {
+                    nbItemsToTake = contextFilter.TakenNumber.Value;
+                    query = query.Take(contextFilter.TakenNumber.Value);
+                }
+
+                //TODO: 20/07/2018, Finir pour la partie Au hasard
+            }
         }
         #endregion
     }

@@ -26,6 +26,11 @@ namespace CetaitQuoiLeContexte.Core.Business.Filters
         public int? TakenNumber { get; set; }
 
         /// <summary>
+        /// Valide si on cherche un context au hasard
+        /// </summary>
+        public bool? IsRandomGet { get; set; }
+
+        /// <summary>
         /// Titre formatté
         /// </summary>
         public string Title { get; set; }
