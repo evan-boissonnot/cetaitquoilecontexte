@@ -14,6 +14,7 @@ namespace CetaitQuoiLeContexte.Core.Business
     public class ContextBusiness : Interfaces.Business.IContextBusiness
     {
         #region Fields
+        private static Random __random = new Random();
         private Core.Data.DataDbContext _context = null;
         #endregion
 
@@ -86,7 +87,10 @@ namespace CetaitQuoiLeContexte.Core.Business
                 if (filter.Id > 0)
                     query = query.Where(item => item.Id == filter.Id);
 
-                this.PrepareSelectAllQuery(filter, query, out nbItemsToSkip, out nbItemsToTake);
+                if (!filter.IsRandomGet.GetValueOrDefault())
+                    this.PrepareSelectAllQuery(filter, query, out nbItemsToSkip, out nbItemsToTake);
+                else
+                    this.PrepareRandomSelect(query);
             }
 
             var list = query
@@ -111,6 +115,14 @@ namespace CetaitQuoiLeContexte.Core.Business
         #endregion
 
         #region Internal methods
+        private void PrepareRandomSelect(IQueryable<Data.Context> query)
+        {
+            int nbItems = query.Count();
+            int newItemIndex = __random.Next(0, nbItems);
+
+            query = query.Take(1).Skip(newItemIndex);
+        }
+
         private void PrepareSelectAllQuery(IParentFilter<IContext> filter, IQueryable<Data.Context> query, 
                                            out int nbItemsToSkip, out int nbItemsToTake)
         {
@@ -140,8 +152,6 @@ namespace CetaitQuoiLeContexte.Core.Business
                     nbItemsToTake = contextFilter.TakenNumber.Value;
                     query = query.Take(contextFilter.TakenNumber.Value);
                 }
-
-                //TODO: 20/07/2018, Finir pour la partie Au hasard
             }
         }
         #endregion

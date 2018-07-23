@@ -22,6 +22,11 @@ namespace Boissonnot.Framework.Core.Interfaces.Filters
         int? IndexPage { get; set; }
 
         /// <summary>
+        /// Valide si on cherche un context au hasard
+        /// </summary>
+        bool? IsRandomGet { get; set; }
+
+        /// <summary>
         /// FIltre par les attributs de l'item en cours
         /// </summary>
         T Model { get; set; }
