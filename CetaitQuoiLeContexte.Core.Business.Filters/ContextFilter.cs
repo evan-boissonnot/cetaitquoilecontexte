@@ -31,6 +31,8 @@ namespace CetaitQuoiLeContexte.Core.Business.Filters
         public string Title { get; set; }
 
         public int? IndexPage { get; set; }
+
+        public bool? IsRandomGet { get; set; }
         #endregion
     }
 }

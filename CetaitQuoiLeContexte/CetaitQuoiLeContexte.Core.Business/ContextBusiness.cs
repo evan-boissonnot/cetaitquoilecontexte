@@ -88,9 +88,9 @@ namespace CetaitQuoiLeContexte.Core.Business
                     query = query.Where(item => item.Id == filter.Id);
 
                 if (!filter.IsRandomGet.GetValueOrDefault())
-                    this.PrepareSelectAllQuery(filter, query, out nbItemsToSkip, out nbItemsToTake);
+                    this.PrepareSelectAllQuery(filter, ref query, out nbItemsToSkip, out nbItemsToTake);
                 else
-                    this.PrepareRandomSelect(query);
+                    this.PrepareRandomSelect(ref query);
             }
 
             var list = query
@@ -115,15 +115,15 @@ namespace CetaitQuoiLeContexte.Core.Business
         #endregion
 
         #region Internal methods
-        private void PrepareRandomSelect(IQueryable<Data.Context> query)
+        private void PrepareRandomSelect(ref IQueryable<Data.Context> query)
         {
             int nbItems = query.Count();
             int newItemIndex = __random.Next(0, nbItems);
 
-            query = query.Take(1).Skip(newItemIndex);
+            query = query.Skip(newItemIndex).Take(1);
         }
 
-        private void PrepareSelectAllQuery(IParentFilter<IContext> filter, IQueryable<Data.Context> query, 
+        private void PrepareSelectAllQuery(IParentFilter<IContext> filter, ref IQueryable<Data.Context> query, 
                                            out int nbItemsToSkip, out int nbItemsToTake)
         {
             nbItemsToSkip = 0;

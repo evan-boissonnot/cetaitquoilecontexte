@@ -15,6 +15,8 @@ namespace Boissonnot.Framework.Core.Business.Filters
         public T Model { get; set; }
 
         public int? IndexPage { get; set; }
+
+        public bool? IsRandomGet { get; set; }
         #endregion
     }
 }
