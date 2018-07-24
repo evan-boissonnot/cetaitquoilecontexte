@@ -15,3 +15,12 @@ F:\Works\Perso\CetaitQuoiLeContexte.Github\Boissonnot.Framework.Core.Extensions\
 F:\Works\Perso\CetaitQuoiLeContexte.Github\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.AssemblyInfo.cs
 F:\Works\Perso\CetaitQuoiLeContexte.Github\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.dll
 F:\Works\Perso\CetaitQuoiLeContexte.Github\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.pdb
+C:\Users\evan\Documents\Visual Studio 2017\Projects\cetaitquoilecontexte\Boissonnot.Framework.Core.Extensions\bin\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.deps.json
+C:\Users\evan\Documents\Visual Studio 2017\Projects\cetaitquoilecontexte\Boissonnot.Framework.Core.Extensions\bin\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.dll
+C:\Users\evan\Documents\Visual Studio 2017\Projects\cetaitquoilecontexte\Boissonnot.Framework.Core.Extensions\bin\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.pdb
+C:\Users\evan\Documents\Visual Studio 2017\Projects\cetaitquoilecontexte\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.csprojAssemblyReference.cache
+C:\Users\evan\Documents\Visual Studio 2017\Projects\cetaitquoilecontexte\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\evan\Documents\Visual Studio 2017\Projects\cetaitquoilecontexte\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.AssemblyInfoInputs.cache
+C:\Users\evan\Documents\Visual Studio 2017\Projects\cetaitquoilecontexte\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.AssemblyInfo.cs
+C:\Users\evan\Documents\Visual Studio 2017\Projects\cetaitquoilecontexte\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.dll
+C:\Users\evan\Documents\Visual Studio 2017\Projects\cetaitquoilecontexte\Boissonnot.Framework.Core.Extensions\obj\Debug\netstandard2.0\Boissonnot.Framework.Core.Extensions.pdb
