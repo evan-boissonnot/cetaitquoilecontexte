@@ -174,6 +174,9 @@ namespace CetaitQuoiLeContexte.Core.Business.WebService.Access
 
                 if (!string.IsNullOrEmpty(realFilter.Title))
                     url += $"title={realFilter.Title}&";
+
+                if (filter.IsRandomGet.GetValueOrDefault(false))
+                    url += $"random=true&";
             }
 
             return url;
